@@ -334,7 +334,6 @@ textarea
   height: 200px;   
   outline: none;
 }
-
 .rectangulo {
   display: grid;
   grid-template-columns: 8.33% (repeat(12));   
@@ -607,4 +606,3 @@ margin-top: 1550px;
 width: 34%;
 }
 }
-
