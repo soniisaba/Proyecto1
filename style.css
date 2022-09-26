@@ -238,6 +238,7 @@ main {
 #resumen-bebidas-home {
   margin-top: 150px;
 }
+
 #seccion-menu {
   padding: 0px 10px 30px 10px;
   display: grid;
@@ -275,7 +276,12 @@ main {
   padding-bottom: 5px;
 }
 
-/*------------------ACA EMPIEZA EL FOMR--------------*/
+/*------------------ACA EMPIEZA EL FORM--------------*/
+/*------------------ACA EMPIEZA EL FORM--------------*/
+/*------------------ACA EMPIEZA EL FORM--------------*/
+/*------------------ACA EMPIEZA EL FORM--------------*/
+/*------------------ACA EMPIEZA EL FORM--------------*/
+/*------------------ACA EMPIEZA EL FORM--------------*/
 
 #contacto1{
   margin-top: 150px;
@@ -378,9 +384,11 @@ textarea
   .hamburger.active .bar:nth-child(1){
     transform: translateY(8px) rotate(45deg);
   }
+
   .hamburger.active .bar:nth-child(3){
     transform: translateY(-8px) rotate(-45deg);
   }
+
   .nav-menu {
     flex-direction: column;
     position: fixed;
@@ -392,18 +400,22 @@ textarea
     text-align: center;
     transition: 0,5s;
   }
+
   .nav-item {
     margin: 16px 0;
   }
+
   .nav-menu.active {
     left: 0;    
   }
+
   .titulo1 {
     margin-left: auto;
     margin-right: auto;
   }
  
-  /* Sombreado de seleccion en Menu */
+  /* Sombreado de seleccion en Menu */  /* Sombreado de seleccion en Menu */  /* Sombreado de seleccion en Menu */
+
   .nav-menu-link:hover,   
   .nav-menu-link:active{
     
@@ -422,27 +434,35 @@ textarea
     overflow: hidden;
 }
 
-#seccion-menu {
-  grid-template-columns: auto auto;
-}
-
-}
-
-/*media query 2***********************************************/
-/*media query 2***********************************************/
-/*media query 2***********************************************/
-/*media query 2***********************************************/
-/*media query 2***********************************************/
-/*media query 2***********************************************/
-/*media query 2***********************************************/
-
-@media (max-width:550px){
   #seccion-menu {
-    padding-bottom: 30px;
+    padding: 0px 10px 30px 10px;
     display: grid;
-    gap: 7%;
+    gap: 4%;
+    grid-template-columns: auto auto;
+  }
+
+  .bebida {
+    background-color: white;
+    width: 300px;
+    margin-top: 0px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    border-radius: 40px;
+  }
+}
+
+/*media query 2***********************************************/
+/*media query 2***********************************************/
+/*media query 2***********************************************/
+/*media query 2***********************************************/
+/*media query 2***********************************************/
+/*media query 2***********************************************/
+/*media query 2***********************************************/
+
+@media (max-width:700px){
+  #seccion-menu {
     grid-template-columns: auto;
-    justify-content: center;
   }
   .bebida {
     background-color: white;
