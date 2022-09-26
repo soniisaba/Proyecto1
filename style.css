@@ -360,8 +360,6 @@ textarea
   outline: none;
 }
 
-
-
 /*media query 1***********************/
 /*media query 1***********************/
 /*media query 1***********************/
@@ -588,3 +586,155 @@ width: 1662px;
 margin-top: 350px;
 }
 
+/*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*/
+/*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*/
+/*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*/
+
+@media (max-width:1040px) {
+  .hamburger {
+    display:block;
+  }
+
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+  
+  .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  .nav-menu {
+    flex-direction: column;
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    background-color: #e9d7c8;
+    width: 100%;
+    text-align: center;
+    transition: 0,5s;
+  }
+  .nav-item {
+    margin: 16px 0;
+  }
+  .nav-menu.active {
+    left: 0;    
+  }
+  .titulo1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+ 
+  /* Sombreado de seleccion en Menu */
+  .nav-menu-link:hover,   
+  .nav-menu-link:active{
+    
+    background-color: rgba(85, 80, 72, 0.363);
+    left: 0;
+    color:rgb(253, 234, 206);
+    transition: 0.5s;    
+  }
+
+  /** Carrusel **/
+
+  .slider-frame {
+    margin: 120 auto 0;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+#seccion-menu {
+  grid-template-columns: auto auto;
+}
+.Tarjetero{
+  display: grid; 
+  grid-template-columns: auto auto auto;
+  margin-left: 120px;
+  gap: 10px; 
+  justify-content:left;
+}
+.Tarjetero2{
+  display: grid; 
+  grid-template-columns: auto auto auto;
+  margin-left: 120px;
+  gap: 10px; 
+  justify-content:left;
+}
+.tarjeta{
+  font-size: 16px;
+  width: 250px;      
+}
+.minifoto{ 
+  width: 50px;  
+}
+.parrafo{
+color: #000000;
+font-size: 18px;
+}
+.tit1{
+z-index: -1;
+transform: translateX(-400px);
+font-size: 36px;
+}
+.titulo{
+transform: translateX(-340px);
+font-size: 36px;
+z-index: -1;
+}
+.separador{
+margin-top: 750px;
+}
+.separador2{
+margin-top: 750px;
+}
+.minifoto{
+width: 38%;
+}
+}
+@media (max-width:600px){
+.Tarjetero{
+z-index: -1;
+display: grid; 
+grid-template-columns: auto auto;
+margin-left: 50px;
+gap: 10px; 
+justify-content:left;
+}
+.Tarjetero2{
+z-index: -1;
+display: grid; 
+grid-template-columns: auto auto;
+margin-left: 50px;
+gap: 15px;
+}
+.tarjeta{
+font-size: 16px;    
+width: 250px;
+}
+.parrafo{
+color: #000000;
+font-size: 18px;
+}
+.tit1{
+z-index: -1;
+transform: translateX(-500px);
+font-size: 36px;
+}
+.titulo{
+z-index: -1;
+transform: translateX(-500px);
+font-size: 36px;
+}
+.separador{
+margin-top: 1550px;
+}
+.separador2{
+margin-top: 1550px;
+}
+.minifoto{
+width: 34%;
+}
+}
