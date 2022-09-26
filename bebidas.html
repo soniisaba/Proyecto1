@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="shortcut icon" href="./imagenes/Iconocafe.png" type="image/x-icon">
+        <style>
+
+
+.rectangulo {
+    display: grid;
+    grid-template-columns: 8.33% (repeat(12)) ;
+    grid-template-rows: 8.33% (repeat(12));   
+    width: 700px;
+    height: 60px;       
+    align-content: center;
+    justify-content: center;    
+    margin-left: 480px;    
+    justify-items: center;   
+    margin-top: 80px;
+}
+
+h1{
+    
+    text-decoration: underline;
+    text-decoration-color:#000000;  
+    font-family: 'Josefin Sans', sans-serif;      
+    font-size: 48px;
+    color: #833e1c;
+    padding-top: .75em;
+    padding-bottom: 45px;
+    margin: 0em;
+}
+
+h6{  
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  color: #833e1c;
+  text-decoration: underline;
+  }
+
+
+.Tarjetero{
+    display: grid;    
+    width: 1600px;
+    height: 900px;
+    justify-items: center;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    justify-content:space-around;
+    padding-top: 10px;
+    font-size: 20px;
+    margin-left: 15px;
+    gap: 20px;
+    word-wrap: normal;
+}
+
+.tarjeta{     
+    font-size: 16px;    
+    width: 320px;
+    height: 400px;
+    background-color: #e9d7c8;
+    border-radius: 1.5rem; 
+    text-align: center;    
+    font-style: oblique;    
+    border: darkblue;
+    padding: 12px 10px 0px 10px;
+     
+}
+.parrafo{
+  color: #000000;
+  margin-top: 6px;
+  font-family: 'Josefin Sans', sans-serif;  
+}
+.minifoto{
+  padding-top: 8px;
+  margin-left: 12px;
+  width: 180px;  
+}
+.separador{
+  padding: 0px;
+  margin-top: 350px;
+  width: 1662px;
+  
+}
+
+/*****************************************ACA EMPIEZA COMIDAS*********************************/
+/*****************************************ACA EMPIEZA COMIDAS*********************************/
+.rectangulo2 {
+  display: grid;
+  grid-template-columns: 8.33% (repeat(12)) ;
+  grid-template-rows: 8.33% (repeat(12));   
+  width: 700px;
+  height: 60px;       
+  align-content: center;
+  justify-content: center;
+  position: relative;
+  margin-left: 480px;    
+  justify-items: center;   
+  /* margin-top: 20px;   */
+}
+
+.tit1{  
+  text-decoration: underline;
+  text-decoration-color:#000000;  
+  font-family: 'Josefin Sans', sans-serif;      
+  font-size: 48px;
+  color: #ffffff;
+  padding-bottom: 45px;
+  margin-top: 0px;
+}
+
+h6{  
+font-family: 'Josefin Sans', sans-serif;
+font-size: 20px;
+color: #833e1c;
+text-decoration: underline;
+}
+
+.Tarjetero2{
+  display: grid;    
+  width: 1600px;
+  height: 900px;
+  justify-items: center;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+  justify-content:space-around;
+  padding-top: 10px;
+  font-size: 20px;
+  margin-left: 15px;
+  gap: 20px;
+  word-wrap: normal;
+}
+.separador2{
+  width: 1662px;
+  margin-top: 350px;
+  margin-bottom: 0;
+}
+        </style>
+    </head>
+
+    
+<body>
+    <title>Nuestro Menú</title>
+    <header>
+        <nav class="navbar">
+            <a href="home.html" class="titulo1"><img src=".//imagenes/Logo.png" id="foto-logo">Galaxy Coffee</a>
+            <ul class="nav-menu">                          
+                <li class="nav-item"><a href=".//bebidas.html" class="nav-menu-link nav-link" >Nuestro Menú</a></li>
+                <li class="nav-item"><a href=".//SobreNosotros.html" class="nav-menu-link nav-link" >Sobre Nosotros</a></li>
+                <li class="nav-item"><a href="./Sucursales.html" class="nav-menu-link nav-link">Sucursales</a></li>
+                <li class="nav-item"><a href=".//Contacto.html" class="contacto">Contacto</a></li>            
+            </ul>    
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <div class="rectangulo">
+        <h1 class="titulo"><b>Nuestras bebidas:</b></h1>
+    </div>        
+        <div class="Tarjetero">            
+            
+            <div class="tarjeta" >
+                <h6>Smoothie</h6>
+                <img src=".//imagenes/Smoothie1.png" alt="Smoothie" class="minifoto">
+                <p class="parrafo">Esta deliciosa mezcla de smoothie orgánica contiene una deliciosa combinación de hojuelas de avena molida orgánica con polvo de proteína de arveja orgánica, cacao en polvo orgánico, canela molida, sal de maras rosada, polvo de camu camu orgánico y stevia pura en polvo.</p>
+            </div>
+            <div class="tarjeta" >
+                <h6>Capuccino</h6>
+                <img src="./imagenes/Capuccino1.png" alt="Capuccino" class="minifoto">
+                <p class="parrafo">El Capuccino tiene un aroma intenso que combina las esencias subyacentes de flores y frutos con los olores más audaces de la leche, tostados (cereales, caramelo), chocolate (cacao, vainilla) y frutos secos.
+                Tiene un notable cuerpo con una atractiva sensación de crema, combinado con un sabor amargo suave y una acidez equilibrada.</p>
+            </div>
+            <div class="tarjeta" >
+                <h6>Irlandes</h6>
+                <img src="./imagenes/Irlandes1.png" alt="Irlandes" class="minifoto">
+                <p class="parrafo">Una mezcla de café caliente y whisky coronado por nata o crema de leche. <br>
+                <br> En realidad es una forma fantástica de tomarse un café los días frios del otoño y el invierno, cumpliendo una única condición: <b> ser mayor de edad.</b></p>
+            </div>
+            <div class="tarjeta" >
+                <h6>Frappe</h6>
+                <img src="./imagenes/Frappe1.png" alt="Frappe" class="minifoto">
+                <p class="parrafo">El frappé es una bebida de café fría elaborada y servida de forma especial.<br>
+                    Existen diferentes tipos de frappés, según el tipo de café y la cantidad de leche que hayamos utilizado para su elaboración:<b> frappé clásico, frappuccino (cappuccino), frappé latte (café latte),etc..</b></p>
+            </div>
+            <div class="tarjeta" >
+                <h6>Macchiato</h6>
+                <img src="./imagenes/Macchiato.png" alt="Macchiato" class="minifoto">
+                <p class="parrafo">Un café macchiato vendría a ser un café expreso que se ha cortado con leche para reducir el amargor.<br> 
+                    En un café macchiato la leche es la menor proporción de la bebida que te vas a tomar ya que simplemente va a manchar tu café expreso.</p>
+            </div>
+            <div class="tarjeta" >
+                <h6>Moccha Latte</h6>
+                <img src="./imagenes/mochalatte1.png" alt="Moccha" class="minifoto">
+                <p class="parrafo">El Moccha Latte es una bebida integrada por 2/3 partes de leche, y 1/3 de café, con un toque audaz de chocolate, normalmente en forma de jarabe.</p>
+            </div>
+            <div class="tarjeta" >
+                <h6>Expresso</h6>
+                <img src="./imagenes/Expresso1.png" alt="Expresso" class="minifoto">
+                <p class="parrafo">Es un tipo de café negro fuerte que se forma cuando el agua caliente pasa a mucha presión través de los granos de café molidos. Si bien esto puede sonar similar a un café estándar, son muy diferentes. El espresso requiere mucha más presión y mucho menos tiempo de preparación que el café.</p>
+            </div>
+            <div class="tarjeta" >
+                <h6>Manchado</h6>
+                <img src="./imagenes/Manchado.png" alt="Manchado" class="minifoto">
+                <p class="parrafo">Se trata de un vaso de leche al que se le añade un poco de café, poco más que una gota, sobre la leche previamente caliente, servido en vaso de cristal.<br>
+                <br><b>«Muy poquito café y mucha leche»</b></p>
+            </div>
+            <div class="tarjeta">
+                <h6>Té helado con leche</h6>
+                <img src="./imagenes/Teconleche1.png" alt="Teleche" class="minifoto">
+                <p class="parrafo"><b>«Thai Tea»</b><br>Es una mezcla de té negro, especias, azúcar, leche condensada azucarada y leche evaporada.<br> 
+                    Destaca por su tono ámbar oscuro o naranja.<br> 
+                    Sirve para refrescarnos cuando hace calor y también para acompañar las comidas picantes.</p>
+            </div>
+            <div class="tarjeta" >
+                <h6>Té Helado</h6>
+                <img src="./imagenes/Tehelado1.png" alt="Tehelado" class="minifoto">
+                <p class="parrafo">El té helado o <b>«Iced tea»</b>, es el té preparado en infusión caliente (de la forma normal en que preparamos el té) pero servido frío o con hielo.
+                  <br><br>La forma ideal de beber té en verano y aprovechar sus beneficios para la salud.
+            </div>
+            <div class="tarjeta" >
+                <h6>Red Té</h6>
+                <img src="./imagenes/Redte.png" alt="Redte" class="minifoto">
+                <p class="parrafo">Él té de frutos rojos o frutos del bosque se constituye de frambuesas, ciruelas, arándanos, frutillas o moras principalmente. <br><b>«Ofrece un gran valor nutricional»</b>. Sabor intenso, así como un color característico.</p>
+            </div>
+            <div class="tarjeta" >
+                <h6>Exprimido</h6>
+                <img src="./imagenes/Exprimido.png" alt="Exprimido" class="minifoto">
+                <p class="parrafo">Clasico exprimido de naranjas organicas. <br><br>
+                    Tomar un vaso de jugo de naranjas diario favorece la eliminación de toxinas y desechos que el cuerpo no necesita.</p>
+            </div>
+        </div> 
+        <img src="./imagenes/separador2.png" id="separador">
+        
+        
+
+
+        <div class="rectangulo2">
+            <h1 class="tit1"><b>Nuestras comidas:</b></h1>
+        </div>        
+            <div class="Tarjetero2">            
+                
+                <div class="tarjeta" >
+                    <h6>Frola</h6>
+                    <img src=".//imagenes/Frola1.png" alt="Smoothie" class="minifoto">
+                    <p class="parrafo">Esta deliciosa mezcla de smoothie orgánica contiene una deliciosa combinación de hojuelas de avena molida orgánica con polvo de proteína de arveja orgánica, cacao en polvo orgánico, canela molida, sal de maras rosada, polvo de camu camu orgánico y stevia pura en polvo.</p>
+                </div>
+                <div class="tarjeta" >
+                    <h6>Cheescake</h6>
+                    <img src="./imagenes/Cheesk.png" alt="Capuccino" class="minifoto">
+                    <p class="parrafo">El Capuccino tiene un aroma intenso que combina las esencias subyacentes de flores y frutos con los olores más audaces de la leche, tostados (cereales, caramelo), chocolate (cacao, vainilla) y frutos secos.
+                    Tiene un notable cuerpo con una atractiva sensación de crema, combinado con un sabor amargo suave y una acidez equilibrada.</p>
+                </div>
+                <div class="tarjeta" >
+                    <h6>Torta de coco</h6>
+                    <img src="./imagenes/coco.png" alt="Irlandes" class="minifoto">
+                    <p class="parrafo">Una mezcla de café caliente y whisky coronado por nata o crema de leche. <br>
+                    <br> En realidad es una forma fantástica de tomarse un café los días frios del otoño y el invierno, cumpliendo una única condición: <b> ser mayor de edad.</b></p>
+                </div>
+                <div class="tarjeta" >
+                    <h6>Selva negra</h6>
+                    <img src="./imagenes/selvanegra.png" alt="Frappe" class="minifoto">
+                    <p class="parrafo">El frappé es una bebida de café fría elaborada y servida de forma especial.<br>
+                        Existen diferentes tipos de frappés, según el tipo de café y la cantidad de leche que hayamos utilizado para su elaboración:<b> frappé clásico, frappuccino (cappuccino), frappé latte (café latte),etc..</b></p>
+                </div>
+                <div class="tarjeta" >
+                    <h6>Tarta de ricota</h6>
+                    <img src="./imagenes/ricota.png" alt="Macchiato" class="minifoto">
+                    <p class="parrafo">Un café macchiato vendría a ser un café expreso que se ha cortado con leche para reducir el amargor.<br> 
+                        En un café macchiato la leche es la menor proporción de la bebida que te vas a tomar ya que simplemente va a manchar tu café expreso.</p>
+                </div>
+                <div class="tarjeta" >
+                    <h6>Tarta de frutillas</h6>
+                    <img src="./imagenes/fruti.png" alt="Moccha" class="minifoto">
+                    <p class="parrafo">El Moccha Latte es una bebida integrada por 2/3 partes de leche, y 1/3 de café, con un toque audaz de chocolate, normalmente en forma de jarabe.</p>
+                </div>
+                <div class="tarjeta" >
+                    <h6>Masas finas</h6>
+                    <img src="./imagenes/masas.png" alt="Expresso" class="minifoto">
+                    <p class="parrafo">Es un tipo de café negro fuerte que se forma cuando el agua caliente pasa a mucha presión través de los granos de café molidos. Si bien esto puede sonar similar a un café estándar, son muy diferentes. El espresso requiere mucha más presión y mucho menos tiempo de preparación que el café.</p>
+                </div>
+                <div class="tarjeta" >
+                    <h6>Manchado</h6>
+                    <img src="./imagenes/Manchado.png" alt="Manchado" class="minifoto">
+                    <p class="parrafo">Se trata de un vaso de leche al que se le añade un poco de café, poco más que una gota, sobre la leche previamente caliente, servido en vaso de cristal.<br>
+                    <br><b>«Muy poquito café y mucha leche»</b></p>
+                </div>
+                <div class="tarjeta">
+                    <h6>Té helado con leche</h6>
+                    <img src="./imagenes/Teconleche1.png" alt="Teleche" class="minifoto">
+                    <p class="parrafo"><b>«Thai Tea»</b><br>Es una mezcla de té negro, especias, azúcar, leche condensada azucarada y leche evaporada.<br> 
+                        Destaca por su tono ámbar oscuro o naranja.<br> 
+                        Sirve para refrescarnos cuando hace calor y también para acompañar las comidas picantes.</p>
+                </div>
+                <div class="tarjeta" >
+                    <h6>Té Helado</h6>
+                    <img src="./imagenes/Tehelado1.png" alt="Tehelado" class="minifoto">
+                    <p class="parrafo">El té helado o <b>«Iced tea»</b>, es el té preparado en infusión caliente (de la forma normal en que preparamos el té) pero servido frío o con hielo.
+                      <br><br>La forma ideal de beber té en verano y aprovechar sus beneficios para la salud.
+                </div>
+                <div class="tarjeta" >
+                    <h6>Red Té</h6>
+                    <img src="./imagenes/Redte.png" alt="Redte" class="minifoto">
+                    <p class="parrafo">Él té de frutos rojos o frutos del bosque se constituye de frambuesas, ciruelas, arándanos, frutillas o moras principalmente. <br><b>«Ofrece un gran valor nutricional»</b>. Sabor intenso, así como un color característico.</p>
+                </div>
+                <div class="tarjeta" >
+                    <h6>Exprimido</h6>
+                    <img src="./imagenes/Exprimido.png" alt="Exprimido" class="minifoto">
+                    <p class="parrafo">Clasico exprimido de naranjas organicas. <br><br>
+                        Tomar un vaso de jugo de naranjas diario favorece la eliminación de toxinas y desechos que el cuerpo no necesita.</p>
+                </div>
+            </div> 
+            <img src="./imagenes/separador2.png" id="separador2">
+    <script src="script.js"></script>
+</body>
+</html>

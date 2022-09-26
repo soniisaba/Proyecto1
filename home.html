@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/75a592b408.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./imagenes/Iconocafe.png" type="image/x-icon">
+    <title>GalaxyCoffee</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="home.html" class="titulo1"><img src=".//imagenes/Logo.png" id="foto-logo">Galaxy Coffee</a>
+            <ul class="nav-menu">                          
+                <li class="nav-item"><a href=".//bebidas.html" class="nav-menu-link nav-link" >Nuestro Menú</a></li>
+                <li class="nav-item"><a href="#sobre-nosotros-home" class="nav-menu-link nav-link" >Sobre Nosotros</a></li>
+                <li class="nav-item"><a href="./Sucursales.html" class="nav-menu-link nav-link">Sucursales</a></li>
+                <li class="nav-item"><a href=".//Contacto.html" class="contacto">Contacto</a></li>            
+            </ul>    
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Carrusel de imagenes -->
+        <section>
+            <div class="slider-frame">
+                <ul class="carrusel">
+                    <li class="imagenCarrusel"><img class="imgCarr" src="Imagenes/Carrusel/1.jpg" alt=""></li>
+                    <li class="imagenCarrusel"><img class="imgCarr"src="Imagenes/Carrusel/2.jpg" alt="" ></li>
+                    <li class="imagenCarrusel"><img class="imgCarr" src="Imagenes/Carrusel/13.jpg" alt="" ></li>
+                    <li class="imagenCarrusel"><img class="imgCarr" src="Imagenes/Carrusel/12.jpg" alt="" ></li>
+                    <li class="imagenCarrusel"><img class="imgCarr" src="Imagenes/Carrusel/5.jpg" alt="" ></li>
+                    <li class="imagenCarrusel"><img class="imgCarr" src="Imagenes/Carrusel/6.jpg" alt="" ></li>
+                    <li class="imagenCarrusel"><img class="imgCarr" src="Imagenes/Carrusel/7.jpg" alt="" ></li>
+                    <li class="imagenCarrusel"><img class="imgCarr" src="Imagenes/Carrusel/8.jpg" alt="" ></li>
+                    <li class="imagenCarrusel"><img class="imgCarr" src="Imagenes/Carrusel/9.jpg" alt="" ></li>
+                    <li class="imagenCarrusel"><img class="imgCarr" src="Imagenes/Carrusel/10.jpg" alt="" ></li>
+                </ul>
+            </div>
+        </section>
+        <section class="seccion" id="sobre-nosotros-home">
+            <div>
+                <h1>Sobre Galaxy Coffee</h1>
+                <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit exercitationem mollitia quisquam voluptatem autem quidem voluptates ut, deserunt obcaecati labore id, modi reiciendis! Aliquid harum quaerat maxime illum sint et.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit exercitationem mollitia quisquam voluptatem autem quidem voluptates ut, deserunt obcaecati labore id, modi reiciendis! Aliquid harum quaerat maxime illum sint et.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit exercitationem mollitia quisquam voluptatem autem quidem voluptates ut, deserunt obcaecati labore id, modi reiciendis! Aliquid harum quaerat maxime illum sint et.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit exercitationem mollitia quisquam voluptatem autem quidem voluptates ut, deserunt obcaecati labore id, modi reiciendis! Aliquid harum quaerat maxime illum sint et.</p>
+                <a href=".//SobreNosotros.html"><button class="mas-info">Más Información sobre nuestra historia</button></a>
+            </div>
+        </section>
+
+        <section class="seccion" id="resumen-bebidas-home">
+            <h1> Algunas de Nuestras Especialidades</h1>
+            <div id="seccion-menu">
+                <div class="bebida"><img src=".//imagenes/Smoothie1.png" alt="Smoothie"><div>Smoothie</div></div>
+                <div class="bebida"><img src="./imagenes/Irlandes1.png" alt="Irlandes"><div>Irlandes</div></div>
+                <div class="bebida"><img src="./imagenes/selvanegra.png" alt="Smoothie"><div>Selva Negra</div></div>
+                <div class="bebida"><img src="./imagenes/Cheesk.png" alt="Smoothie"><div>Cheesecake</div></div>
+            </div>
+            <a href=".//SobreNosotros.html"><button class="mas-info">Nuestro Menú Completo</button></a>
+        </section>
+
+        <!-- ACA METO EL FORM PARA PROBAR -->
+        <section class="seccion" id="contacto1">
+            <form class="formulario">                          
+                <div class="contenedor_form">
+                    <h2 >Contactanos:</h2>
+                    <div class="form_1">
+                        <div>
+                        <input type="text" id="nombre" class="form_input">
+                        <label for="nombre" class="form_label">Nombre</label>
+                        <span class="form_line"></span>                            
+                        </div> 
+                        <div>
+                        <input type="email" id="email" class="form_input">
+                        <label for="email" class="form_label">Email</label>
+                        <span class="form_line"></span>                            
+                        </div> 
+                        <div>
+                        <input type="text" id="telefono" class="form_input">
+                        <label for="telefono" class="form_label">Telefono</label>
+                        <span class="form_line"></span>
+                        </div>    
+                        <div>
+                            <h3>Mensaje:</h3>                               
+                            <textarea name="mensaje" id="message" cols="30" rows="10"></textarea>
+                        </div>                       
+                        <div>
+                        <input type="submit" class="form_submit" value="Enviar">
+                        </div>
+                    </div>
+                                        
+                </div>                     
+            </form>      
+        </section>       
+    </main>
+    
+    <footer>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
