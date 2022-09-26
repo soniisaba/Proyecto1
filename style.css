@@ -15,6 +15,11 @@ body  {
 
 
 /* TODO ESTO ES EL HEADER - COMÚN PARA TODAS LAS PÁGINAS*/
+/* TODO ESTO ES EL HEADER - COMÚN PARA TODAS LAS PÁGINAS*/
+/* TODO ESTO ES EL HEADER - COMÚN PARA TODAS LAS PÁGINAS*/
+/* TODO ESTO ES EL HEADER - COMÚN PARA TODAS LAS PÁGINAS*/
+/* TODO ESTO ES EL HEADER - COMÚN PARA TODAS LAS PÁGINAS*/
+/* TODO ESTO ES EL HEADER - COMÚN PARA TODAS LAS PÁGINAS*/
 header {
   background-color:rgba(166, 150, 141, 0.824);
   Height: 70px;
@@ -126,6 +131,10 @@ main {
 }
 
 /* EMPIEZA ------ Carrusel ------ SOLO PARA HOME */
+/* EMPIEZA ------ Carrusel ------ SOLO PARA HOME */
+/* EMPIEZA ------ Carrusel ------ SOLO PARA HOME */
+/* EMPIEZA ------ Carrusel ------ SOLO PARA HOME */
+/* EMPIEZA ------ Carrusel ------ SOLO PARA HOME */
 
 
 .slider-frame {
@@ -218,27 +227,32 @@ main {
   border-radius: 10px;
 
 }
-/*EMPIEZA ------ BEBIDAS ----- SOLO PARA EL HOME */
-/*EMPIEZA ------ BEBIDAS ----- SOLO PARA EL HOME */
-/*EMPIEZA ------ BEBIDAS ----- SOLO PARA EL HOME */
-/*EMPIEZA ------ BEBIDAS ----- SOLO PARA EL HOME */
+/*EMPIEZA ------ BEBIDAS -------------------------- SOLO PARA EL HOME */
+/*EMPIEZA ------ BEBIDAS -------------------------- SOLO PARA EL HOME */
+/*EMPIEZA ------ BEBIDAS -------------------------- SOLO PARA EL HOME */
+/*EMPIEZA ------ BEBIDAS -------------------------- SOLO PARA EL HOME */
+/*EMPIEZA ------ BEBIDAS -------------------------- SOLO PARA EL HOME */
+/*EMPIEZA ------ BEBIDAS -------------------------- SOLO PARA EL HOME */
+/*EMPIEZA ------ BEBIDAS -------------------------- SOLO PARA EL HOME */
+
 
 #resumen-bebidas-home {
   margin-top: 150px;
 }
 #seccion-menu {
-  padding-bottom: 30px;
+  padding: 0px 10px 30px 10px;
   display: grid;
-  gap: 7%;
+  gap: 4%;
   grid-template-columns: auto auto auto auto;
 }
 .bebida {
   background-color: white;
   display: block;
-  min-width: 70%;
+  width: 100%;
   margin-top: 30px;
   padding: 20px;
   border-radius: 40px;
+  text-align: center;
 }
 .bebida:hover {
   transform: translate(0px, -10px);
@@ -249,6 +263,17 @@ main {
 }
 .bebida-leyenda{
   padding-bottom: 30px;
+}
+
+.list-ingredientes {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: auto; 
+}
+
+.nombre-bebida {
+  font-size: 25px;
+  padding-bottom: 5px;
 }
 
 /*------------------ACA EMPIEZA EL FOMR--------------*/
@@ -337,9 +362,13 @@ textarea
 
 
 
-/*media querys*/
-/*media querys*/
-/*media querys*/
+/*media query 1***********************/
+/*media query 1***********************/
+/*media query 1***********************/
+/*media query 1***********************/
+/*media query 1***********************/
+/*media query 1***********************/
+
 @media (max-width:1040px) {
   .hamburger {
     display:block;
@@ -402,11 +431,42 @@ textarea
 
 }
 
-/* @media (max-width:600px){
-.Tarjetero{
-    grid-template-columns: auto auto;
+/*media query 2***********************************************/
+/*media query 2***********************************************/
+/*media query 2***********************************************/
+/*media query 2***********************************************/
+/*media query 2***********************************************/
+/*media query 2***********************************************/
+/*media query 2***********************************************/
+
+@media (max-width:550px){
+  #seccion-menu {
+    padding-bottom: 30px;
+    display: grid;
+    gap: 7%;
+    grid-template-columns: auto;
+    justify-content: center;
   }
-} */
+  .bebida {
+    background-color: white;
+    width: 300px;
+    margin-top: 0px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    border-radius: 40px;
+  }
+  .bebida:hover {
+    transform: translate(0px, -10px);
+    transition-timing-function: ease-in-out;
+  }
+  .bebida img{
+    height: 150px;
+  }
+  .bebida-leyenda{
+    padding-bottom: 30px;
+  }
+} 
 
 .rectangulo {
   display: grid;
@@ -527,3 +587,4 @@ margin-top: 700px;
 width: 1662px;
 margin-top: 350px;
 }
+
