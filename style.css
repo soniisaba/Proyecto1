@@ -187,7 +187,6 @@ main {
 	95% {margin-left: -900%;}
 
 }
-
 /* TERMINA ------ Carrusel ------ SOLO PARA HOME */
 /* TERMINA ------ Carrusel ------ SOLO PARA HOME */
 /* TERMINA ------ Carrusel ------ SOLO PARA HOME */
@@ -207,12 +206,10 @@ main {
   text-align: center;
   box-shadow: #000000;
 }
-
 .descripcion {
   padding-bottom: 20px;
   margin-top: 20px;
 }
-
 .mas-info {
   font-size: 28px;
   margin-top: 20px;
@@ -229,14 +226,12 @@ main {
 #resumen-bebidas-home {
   margin-top: 150px;
 }
-
 #seccion-menu {
   padding-bottom: 30px;
   display: grid;
   gap: 7%;
   grid-template-columns: auto auto auto auto;
 }
-
 .bebida {
   background-color: white;
   display: block;
@@ -245,22 +240,20 @@ main {
   padding: 20px;
   border-radius: 40px;
 }
-
 .bebida:hover {
   transform: translate(0px, -10px);
   transition-timing-function: ease-in-out;
 }
-
-.bebida img {
+.bebida img{
   height: 150px;
 }
-.bebida-leyenda {
+.bebida-leyenda{
   padding-bottom: 30px;
 }
 
 /*------------------ACA EMPIEZA EL FOMR--------------*/
 
-#contacto1 {
+#contacto1{
   margin-top: 150px;
 }
 
@@ -274,7 +267,6 @@ main {
   background-position: 0 0, 10px 10px;
   text-align: center;  
 }
-
 .contenedor_form{
   background-image: radial-gradient(circle at 50% 50%, #d5af58 0, #d3a04c 16.67%, #cb8b39 33.33%, #bc6e20 50%, #ad5106 66.67%, #a33700 83.33%, #9e2003 100%);
   margin: auto;
@@ -290,7 +282,6 @@ h2{
   font-size: 2rem;
   margin-bottom: 30px;
 }
-
 .form_1{
   position: relative;
   border: none;
@@ -298,8 +289,7 @@ h2{
   margin-top: 20px;
   gap: 40px;  
 }
-.form_input
-{ 
+.form_input{ 
   font-family: 'Noto Sans', sans-serif;
   width: 100%; 
   font-size: 1rem;
@@ -308,12 +298,10 @@ h2{
   outline: none;
   padding-bottom: 0;   
 }
-.form_input:focus + .form_label
-{
+.form_input:focus + .form_label{
   transform: translateY(-30px);
 }
-.form_label
-{  
+.form_label{  
   margin-top: 4px;
   color: #000000;  
   cursor: pointer;
@@ -322,8 +310,7 @@ h2{
   transform: translateY(-5px); 
   transition: transform .6seg;
 }
-.form_submit
-{
+.form_submit{
   margin-top: 0;
   padding: 10px; 
   font-family: 'Noto Sans', sans-serif;
@@ -348,12 +335,9 @@ textarea
   outline: none;
 }
 
-
-
 .rectangulo {
   display: grid;
-  grid-template-columns: 8.33% (repeat(12)) ;
-  grid-template-rows: 8.33% (repeat(12));   
+  grid-template-columns: 8.33% (repeat(12));   
   width: 700px;
   height: 60px;       
   align-content: center;
@@ -397,8 +381,8 @@ text-decoration: underline;
   gap: 20px;
   word-wrap: normal;
 }
-
-.tarjeta{     
+.tarjeta{
+  border: dotted 2px rgb(0, 0, 0);     
   font-size: 16px;    
   width: 320px;
   height: 400px;
@@ -406,9 +390,8 @@ text-decoration: underline;
   border-radius: 1.5rem; 
   text-align: center;    
   font-style: oblique;    
-  border: darkblue;
+  
   padding: 12px 10px 0px 10px;
-   
 }
 .parrafo{
 color: #000000;
@@ -421,28 +404,23 @@ margin-left: 12px;
 width: 180px;  
 }
 .separador{
-padding: 0px;
 margin-top: 350px;
 width: 1662px;
-
-}
+} 
 
 /*****************************************ACA EMPIEZA COMIDAS*********************************/
 /*****************************************ACA EMPIEZA COMIDAS*********************************/
 .rectangulo2 {
 display: grid;
-grid-template-columns: 8.33% (repeat(12)) ;
-grid-template-rows: 8.33% (repeat(12));   
+grid-template-columns: 8.33% (repeat(12)) ;  
 width: 700px;
 height: 60px;       
 align-content: center;
 justify-content: center;
 position: relative;
 margin-left: 480px;    
-justify-items: center;   
-/* margin-top: 20px;   */
+justify-items: center;  
 }
-
 .tit1{  
 text-decoration: underline;
 text-decoration-color:#000000;  
@@ -450,16 +428,13 @@ font-family: 'Josefin Sans', sans-serif;
 font-size: 48px;
 color: #ffffff;
 padding-bottom: 45px;
-margin-top: 0px;
 }
-
 h6{  
 font-family: 'Josefin Sans', sans-serif;
 font-size: 20px;
 color: #833e1c;
 text-decoration: underline;
 }
-
 .Tarjetero2{
 display: grid;    
 width: 1600px;
@@ -475,17 +450,15 @@ gap: 20px;
 word-wrap: normal;
 }
 .separador2{
+margin-top: 700px;
 width: 1662px;
 margin-top: 350px;
-margin-bottom: 0;
 }
 
+/*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*/
+/*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*/
+/*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*/
 
-
-
-/*media querys*/
-/*media querys*/
-/*media querys*/
 @media (max-width:1040px) {
   .hamburger {
     display:block;
@@ -501,7 +474,6 @@ margin-bottom: 0;
   .hamburger.active .bar:nth-child(3){
     transform: translateY(-8px) rotate(-45deg);
   }
-
   .nav-menu {
     flex-direction: column;
     position: fixed;
@@ -516,17 +488,14 @@ margin-bottom: 0;
   .nav-item {
     margin: 16px 0;
   }
-
   .nav-menu.active {
-    left: 0;
-    
+    left: 0;    
   }
-
   .titulo1 {
     margin-left: auto;
     margin-right: auto;
   }
-
+ 
   /* Sombreado de seleccion en Menu */
   .nav-menu-link:hover,   
   .nav-menu-link:active{
@@ -534,8 +503,7 @@ margin-bottom: 0;
     background-color: rgba(85, 80, 72, 0.363);
     left: 0;
     color:rgb(253, 234, 206);
-    transition: 0.5s;
-    
+    transition: 0.5s;    
   }
 
   /** Carrusel **/
@@ -550,13 +518,93 @@ margin-bottom: 0;
 #seccion-menu {
   grid-template-columns: auto auto;
 }
-
-
+.Tarjetero{
+  display: grid; 
+  grid-template-columns: auto auto auto;
+  margin-left: 120px;
+  gap: 10px; 
+  justify-content:left;
 }
-
-
-
-
-
-
+.Tarjetero2{
+  display: grid; 
+  grid-template-columns: auto auto auto;
+  margin-left: 120px;
+  gap: 10px; 
+  justify-content:left;
+}
+.tarjeta{
+  font-size: 16px;
+  width: 250px;      
+}
+.minifoto{ 
+  width: 50px;  
+}
+.parrafo{
+color: #000000;
+font-size: 18px;
+}
+.tit1{
+z-index: -1;
+transform: translateX(-400px);
+font-size: 36px;
+}
+.titulo{
+transform: translateX(-340px);
+font-size: 36px;
+z-index: -1;
+}
+.separador{
+margin-top: 750px;
+}
+.separador2{
+margin-top: 750px;
+}
+.minifoto{
+width: 38%;
+}
+}
+@media (max-width:600px){
+.Tarjetero{
+z-index: -1;
+display: grid; 
+grid-template-columns: auto auto;
+margin-left: 50px;
+gap: 10px; 
+justify-content:left;
+}
+.Tarjetero2{
+z-index: -1;
+display: grid; 
+grid-template-columns: auto auto;
+margin-left: 50px;
+gap: 15px;
+}
+.tarjeta{
+font-size: 16px;    
+width: 250px;
+}
+.parrafo{
+color: #000000;
+font-size: 18px;
+}
+.tit1{
+z-index: -1;
+transform: translateX(-500px);
+font-size: 36px;
+}
+.titulo{
+z-index: -1;
+transform: translateX(-500px);
+font-size: 36px;
+}
+.separador{
+margin-top: 1550px;
+}
+.separador2{
+margin-top: 1550px;
+}
+.minifoto{
+width: 34%;
+}
+}
 
