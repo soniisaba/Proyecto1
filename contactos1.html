@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./contacto.css">
+    <script src="https://kit.fontawesome.com/75a592b408.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./imagenes/Iconocafe.png" type="image/x-icon">
+
+    <title>GalaxyCoffee</title>
+</head>
+
+<body>
+            
+    <header>
+        <nav class="navbar">
+            <a href="home.html" class="titulo1"><img src=".//imagenes/Logo.png" id="foto-logo">Galaxy Coffee</a>
+            <ul class="nav-menu">                          
+                <li class="nav-item"><a href=".//menu.html" class="nav-menu-link nav-link" >Nuestro Menú</a></li>
+                <li class="nav-item"><a href="#sobre-nosotros-home" class="nav-menu-link nav-link" >Sobre Nosotros</a></li>
+                <li class="nav-item"><a href="./Sucursales.html" class="nav-menu-link nav-link">Sucursales</a></li>
+                <li class="nav-item"><a href=".//contactos1.html" class="contacto">Contacto</a></li>            
+            </ul>    
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="container">
+        
+            <form class="row bg-secondary my-5 mx-4 shadow-lg bg-body rounded border-2">
+                
+                <h1 class="text-center">Formulario de contacto:</h1>
+    
+                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-2 mt-2">
+                    <label for="Nombre" class="form-label">Nombre:</label>
+                    <input type="text" class="form-control border border-info" id="apellido" placeholder="Ingrese su nombre">
+                </div>
+    
+                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-2 mt-2">
+                    <label for="Nombre" class="form-label">Apellido:</label>
+                    <input type="text" class="form-control border border-info rounded-3" id="apellido" placeholder="Ingrese su apellido">
+                </div>
+    
+               
+    
+                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-2 mt-2">
+                    <label for="Nombre" class="form-label">Email:</label>
+                    <input type="email" class="form-control border border-info rounded-3" id="email" placeholder="Ingrese su email">
+                </div>
+    
+                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-2 mt-2">
+                    <label for="sexo" class="form-label">Sexo:</label>
+                    <select class="form-select border border-info rounded-3" id="sexo">                
+                    <option selected> </option>
+                    <option value="1">Femenino</option>
+                    <option value="2">Masculino</option>
+                    <option value="3">Ns/Nc</option>
+                    </select>
+                </div>
+    
+                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-2">
+                    <label for="edad" class="form-label">Edad:</label>
+                    <select class="form-select border border-info rounded-3" id="edad">                
+                    <option selected> </option>
+                    <option value="1">18-25</option>
+                    <option value="2">25-35</option>
+                    <option value="3">35-45</option>
+                    <option value="3">45-50</option>
+                    <option value="3">mas de 50</option>
+                    </select>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-3">
+                <div class="input-group my-4">
+                    <span class="input-group-text" id="basic-addon1">+54 9</span>
+                    <input type="text" class="form-control border border-info rounded-3" placeholder="Ingrese su telefono" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>         
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-2 mt-2">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje:</label>
+                    <textarea class="form-control border border-info rounded-3" id="exampleFormControlTextarea1" rows="3" placeholder="Escriba aqui su mensaje"></textarea>
+                  </div>
+    
+                <h2 class="text-center my-2">¿Queres trabajar con nosotros?</h2>
+                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 my-3">        
+                        <div class="input-group my-3">                
+                            <input type="file" class="form-control border border-info rounded-3" id="inputGroupFile01">
+                        </div>          
+                </div>
+    
+                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">        
+                    <label for="edad" class="form-label">Puesto al que se postula:</label>
+                    <select class="form-select border border-info rounded-3" id="edad">                
+                    <option selected> </option>
+                    <option value="1">Camarera/o</option>
+                    <option value="2">Cajera/o</option>
+                    <option value="3">Cocinera/o</option>
+                    <option value="3">Bachera/o</option>
+                    <option value="3">Otro</option>
+                    </select>         
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6" id="botonEnviar">
+                <div class="d-grid gap-2 my-3 ju">
+                    <button class="btn btn-success btn-lg me-md-2" type="submit">Enviar</button>
+                   </div>
+                  </div>
+            </form>      
+        </div>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    </main>
+    
+    <footer>
+    </footer>
+
+    <script src="script.js"></script>
+</body>

@@ -286,16 +286,13 @@ main {
 /*------------------ACA EMPIEZA EL FORM--------------*/
 /*------------------ACA EMPIEZA EL FORM--------------*/
 
-
-
 .row{
   border: solid #b4a294;    
   background-color: #c6b8ac;
 }
-.container{  
-  margin-top: 80px;
-}
 
+/*****************************************ACA EMPIEZA MENÚ*********************************//*****************************************ACA EMPIEZA MENÚ*********************************/
+/*****************************************ACA EMPIEZA MENÚ*********************************//*****************************************ACA EMPIEZA MENÚ*********************************/
 
 .text-center{
   padding-top: 5px;
@@ -307,13 +304,11 @@ main {
   color: #000000;
   text-decoration: none;
   font-style: normal;
+
 }
 #cuadroMensaje{
   resize: none;
-}  
-
-/*****************************************ACA EMPIEZA MENÚ*********************************//*****************************************ACA EMPIEZA MENÚ*********************************/
-/*****************************************ACA EMPIEZA MENÚ*********************************//*****************************************ACA EMPIEZA MENÚ*********************************/
+} 
 
 .seccion-menu {
   margin-top: 70px;
@@ -321,7 +316,9 @@ main {
   padding-left: 50px;
   padding-right: 50px;
 }
-
+.container{  
+  margin-top: 80px;
+}
 .tarjetero{
   display: grid;    
   width: 100%;
