@@ -8,12 +8,16 @@
 
 body  {
   background: #ffffff;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #000000, #28343c);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #969896, #fffefe); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: #c6b8ac;
   font-family: 'Roboto', sans-serif;
 }
 
 
+/* TODO ESTO ES EL HEADER - COMÚN PARA TODAS LAS PÁGINAS*/
+/* TODO ESTO ES EL HEADER - COMÚN PARA TODAS LAS PÁGINAS*/
+/* TODO ESTO ES EL HEADER - COMÚN PARA TODAS LAS PÁGINAS*/
+/* TODO ESTO ES EL HEADER - COMÚN PARA TODAS LAS PÁGINAS*/
+/* TODO ESTO ES EL HEADER - COMÚN PARA TODAS LAS PÁGINAS*/
 /* TODO ESTO ES EL HEADER - COMÚN PARA TODAS LAS PÁGINAS*/
 header {
   background-color:rgba(166, 150, 141, 0.824);
@@ -126,6 +130,10 @@ main {
 }
 
 /* EMPIEZA ------ Carrusel ------ SOLO PARA HOME */
+/* EMPIEZA ------ Carrusel ------ SOLO PARA HOME */
+/* EMPIEZA ------ Carrusel ------ SOLO PARA HOME */
+/* EMPIEZA ------ Carrusel ------ SOLO PARA HOME */
+/* EMPIEZA ------ Carrusel ------ SOLO PARA HOME */
 
 
 .slider-frame {
@@ -212,33 +220,41 @@ main {
 }
 .mas-info {
   font-size: 28px;
-  margin-top: 20px;
+  margin-top: 100px;
   background-color: #eae7e5;
   padding: 15px;
   border-radius: 10px;
 
 }
-/*EMPIEZA ------ BEBIDAS ----- SOLO PARA EL HOME */
-/*EMPIEZA ------ BEBIDAS ----- SOLO PARA EL HOME */
-/*EMPIEZA ------ BEBIDAS ----- SOLO PARA EL HOME */
-/*EMPIEZA ------ BEBIDAS ----- SOLO PARA EL HOME */
+/*EMPIEZA ------ BEBIDAS -------------------------- SOLO PARA EL HOME */
+/*EMPIEZA ------ BEBIDAS -------------------------- SOLO PARA EL HOME */
+/*EMPIEZA ------ BEBIDAS -------------------------- SOLO PARA EL HOME */
+/*EMPIEZA ------ BEBIDAS -------------------------- SOLO PARA EL HOME */
+/*EMPIEZA ------ BEBIDAS -------------------------- SOLO PARA EL HOME */
+/*EMPIEZA ------ BEBIDAS -------------------------- SOLO PARA EL HOME */
+/*EMPIEZA ------ BEBIDAS -------------------------- SOLO PARA EL HOME */
+
 
 #resumen-bebidas-home {
   margin-top: 150px;
 }
+
 #seccion-menu {
-  padding-bottom: 30px;
+  padding: 0px 10px 30px 10px;
   display: grid;
-  gap: 7%;
+  gap: 4%;
   grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  margin-top: 1em;
 }
 .bebida {
   background-color: white;
   display: block;
-  min-width: 70%;
+  width: 100%;
   margin-top: 30px;
   padding: 20px;
   border-radius: 40px;
+  text-align: center;
 }
 .bebida:hover {
   transform: translate(0px, -10px);
@@ -250,6 +266,7 @@ main {
 .bebida-leyenda{
   padding-bottom: 30px;
 }
+
 .list-ingredientes {
   text-align: center;
   margin-top: 50px;
@@ -261,7 +278,12 @@ main {
   padding-bottom: 5px;
 }
 
-/*------------------ACA EMPIEZA EL FOMR--------------*/
+/*------------------ACA EMPIEZA EL FORM--------------*/
+/*------------------ACA EMPIEZA EL FORM--------------*/
+/*------------------ACA EMPIEZA EL FORM--------------*/
+/*------------------ACA EMPIEZA EL FORM--------------*/
+/*------------------ACA EMPIEZA EL FORM--------------*/
+/*------------------ACA EMPIEZA EL FORM--------------*/
 
 #contacto1{
   margin-top: 150px;
@@ -345,63 +367,37 @@ textarea
   outline: none;
 }
 
-.rectangulo {
-  display: grid;
-  grid-template-columns: 8.33% (repeat(12));   
-  width: 700px;
-  height: 60px;       
-  align-content: center;
-  justify-content: center;    
-  margin-left: 480px;    
-  justify-items: center;   
-  margin-top: 80px;
+/*****************************************ACA EMPIEZA MENÚ*********************************//*****************************************ACA EMPIEZA MENÚ*********************************/
+/*****************************************ACA EMPIEZA MENÚ*********************************//*****************************************ACA EMPIEZA MENÚ*********************************/
+
+.seccion-menu {
+  margin-top: 70px;
+  background-color: #b4a294;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
-h1{
-  
-  text-decoration: underline;
-  text-decoration-color:#000000;  
-  font-family: 'Josefin Sans', sans-serif;      
-  font-size: 48px;
-  color: #833e1c;
-  padding-top: .75em;
-  padding-bottom: 45px;
-  margin: 0em;
-}
-
-h6{  
-font-family: 'Josefin Sans', sans-serif;
-font-size: 20px;
-color: #833e1c;
-text-decoration: underline;
-}
-
-
-.Tarjetero{
+.tarjetero{
   display: grid;    
-  width: 1600px;
-  height: 900px;
-  justify-items: center;
+  width: 100%;
+  justify-content: space-around; 
   grid-template-columns: auto auto auto auto;
   align-items: center;
-  justify-content:space-around;
   padding-top: 10px;
   font-size: 20px;
-  margin-left: 15px;
-  gap: 20px;
+  gap: 2%;
   word-wrap: normal;
 }
+
 .tarjeta{
-  border: dotted 2px rgb(0, 0, 0);     
   font-size: 16px;    
-  width: 320px;
-  height: 400px;
+  min-width: 8em;
   background-color: #e9d7c8;
   border-radius: 1.5rem; 
   text-align: center;    
   font-style: oblique;    
-  
-  padding: 12px 10px 0px 10px;
+  padding: 10px;
+  min-height: 430px;
 }
 .parrafo{
 color: #000000;
@@ -411,58 +407,11 @@ font-family: 'Josefin Sans', sans-serif;
 .minifoto{
 padding-top: 8px;
 margin-left: 12px;
-width: 180px;  
+width: 130px;  
 }
-.separador{
-margin-top: 350px;
-width: 1662px;
-} 
 
-/*****************************************ACA EMPIEZA COMIDAS*********************************/
-/*****************************************ACA EMPIEZA COMIDAS*********************************/
-.rectangulo2 {
-display: grid;
-grid-template-columns: 8.33% (repeat(12)) ;  
-width: 700px;
-height: 60px;       
-align-content: center;
-justify-content: center;
-position: relative;
-margin-left: 480px;    
-justify-items: center;  
-}
-.tit1{  
-text-decoration: underline;
-text-decoration-color:#000000;  
-font-family: 'Josefin Sans', sans-serif;      
-font-size: 48px;
-color: #ffffff;
-padding-bottom: 45px;
-}
-h6{  
-font-family: 'Josefin Sans', sans-serif;
-font-size: 20px;
-color: #833e1c;
-text-decoration: underline;
-}
-.Tarjetero2{
-display: grid;    
-width: 1600px;
-height: 900px;
-justify-items: center;
-grid-template-columns: auto auto auto auto;
-align-items: center;
-justify-content:space-around;
-padding-top: 10px;
-font-size: 20px;
-margin-left: 15px;
-gap: 20px;
-word-wrap: normal;
-}
-.separador2{
-margin-top: 700px;
-width: 1662px;
-margin-top: 350px;
+.titulo-comida {
+  margin-top: 100px;
 }
 
 /*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*/
@@ -481,9 +430,11 @@ margin-top: 350px;
   .hamburger.active .bar:nth-child(1){
     transform: translateY(8px) rotate(45deg);
   }
+
   .hamburger.active .bar:nth-child(3){
     transform: translateY(-8px) rotate(-45deg);
   }
+
   .nav-menu {
     flex-direction: column;
     position: fixed;
@@ -495,18 +446,22 @@ margin-top: 350px;
     text-align: center;
     transition: 0,5s;
   }
+
   .nav-item {
     margin: 16px 0;
   }
+
   .nav-menu.active {
     left: 0;    
   }
+
   .titulo1 {
     margin-left: auto;
     margin-right: auto;
   }
  
-  /* Sombreado de seleccion en Menu */
+  /* Sombreado de seleccion en Menu */  /* Sombreado de seleccion en Menu */  /* Sombreado de seleccion en Menu */
+
   .nav-menu-link:hover,   
   .nav-menu-link:active{
     
@@ -525,96 +480,50 @@ margin-top: 350px;
     overflow: hidden;
 }
 
-#seccion-menu {
-  grid-template-columns: auto auto;
-}
-.Tarjetero{
-  display: grid; 
-  grid-template-columns: auto auto auto;
-  margin-left: 120px;
-  gap: 10px; 
-  justify-content:left;
-}
-.Tarjetero2{
-  display: grid; 
-  grid-template-columns: auto auto auto;
-  margin-left: 120px;
-  gap: 10px; 
-  justify-content:left;
-}
-.tarjeta{
-  font-size: 16px;
-  width: 250px;      
-}
-.minifoto{ 
-  width: 50px;  
-}
-.parrafo{
-color: #000000;
-font-size: 18px;
-}
-.tit1{
-z-index: -1;
-transform: translateX(-400px);
-font-size: 36px;
-}
-.titulo{
-transform: translateX(-340px);
-font-size: 36px;
-z-index: -1;
-}
-.separador{
-margin-top: 750px;
-}
-.separador2{
-margin-top: 750px;
-}
-.minifoto{
-width: 38%;
-}
-}
-@media (max-width:600px){
-.Tarjetero{
-z-index: -1;
-display: grid; 
-grid-template-columns: auto auto;
-margin-left: 50px;
-gap: 10px; 
-justify-content:left;
-}
-.Tarjetero2{
-z-index: -1;
-display: grid; 
-grid-template-columns: auto auto;
-margin-left: 50px;
-gap: 15px;
-}
-.tarjeta{
-font-size: 16px;    
-width: 250px;
-}
-.parrafo{
-color: #000000;
-font-size: 18px;
-}
-.tit1{
-z-index: -1;
-transform: translateX(-500px);
-font-size: 36px;
-}
-.titulo{
-z-index: -1;
-transform: translateX(-500px);
-font-size: 36px;
-}
-.separador{
-margin-top: 1550px;
-}
-.separador2{
-margin-top: 1550px;
-}
-.minifoto{
-width: 34%;
-}
+  #seccion-menu {
+    padding: 0px 10px 30px 10px;
+    display: grid;
+    gap: 4%;
+    grid-template-columns: auto auto;
+  }
+
+  .bebida {
+    background-color: white;
+    width: 300px;
+    margin-top: 0px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    border-radius: 40px;
+  }
+  .tarjetero{
+
+    grid-template-columns: auto auto auto;
+
+  }
 }
 
+@media (max-width:700px){
+  #seccion-menu {
+    padding: 0px 10px 30px 10px;
+    display: grid;
+    gap: 4%;
+    grid-template-columns: auto;
+  }
+  .tarjetero{
+    grid-template-columns: auto auto ;  
+  }
+} 
+
+@media (max-width:400px){
+  .tarjetero{
+  z-index: -1;
+  grid-template-columns: auto;
+  justify-content: center; 
+
+  }
+
+  .tarjeta {
+    margin-top: 0;
+  }
+} 
