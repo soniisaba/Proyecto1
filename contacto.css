@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body  {
+  /* background: #ffffff;   */
+  font-family: 'Roboto', sans-serif;
+  background-image: url(imagenes/background.jpg);
+  background-attachment: fixed;
+}
+
+
+/* TODO ESTO ES EL HEADER - COMÚN PARA TODAS LAS PÁGINAS*/
+
+header {
+  background-color:rgba(166, 150, 141, 0.824);
+  Height: 70px;
+  /* position: fixed; */
+  width: 100%;
+  top:0;
+  left: 0;
+}
+
+li {
+  list-style: none;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar {
+  
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px; 
+}
+
+.nav-menu {
+  
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 2em;
+     margin-right: 2em;
+}
+
+/*contacto*/
+.contacto {
+  background-color: #52484497;
+  padding: 8px 12px;
+  border-radius: 10px;
+}
+ 
+.contacto:hover {
+  background-color: rgba(166, 150, 141, 0.824);
+  padding: 8px 12px;
+  border-radius: 10px;
+}
+/* Sombreado de seleccion en menu */
+
+.nav-menu-link:hover {
+  background-color: #52484497;
+  transition: 0.5s;
+  border-radius: 20px;
+}
+
+.nav-menu-link{
+  padding: 8px 12px;
+  border-radius: 3px;
+}
+
+/* ---------------- */ 
+
+#foto-logo {
+  width: 35px;
+
+}
+
+.titulo1 {
+  font-size: 30px;
+  margin-left: 2em;
+}
+
+.nav-link {
+  transition: 0,7s ease;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out; 
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+
+}
+
+/* TODO ESTO ES EL HEADER - COMÚN PARA TODAS LAS PÁGINAS*/
+/* TODO ESTO ES EL HEADER - COMÚN PARA TODAS LAS PÁGINAS*/
+/* TODO ESTO ES EL HEADER - COMÚN PARA TODAS LAS PÁGINAS*/
+/* TODO ESTO ES EL HEADER - COMÚN PARA TODAS LAS PÁGINAS*/
+
+/*------------------------------------------*/
+
+
+
+.container{    
+  margin-top: 100px;
+  margin-left: 0;
+}
+.row{
+border: solid cyan;
+padding: 20px;
+}
+#botonEnviar{ 
+justify-content: center; 
+align-content: center; 
+}
