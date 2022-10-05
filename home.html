@@ -129,36 +129,36 @@
 
         <!-- ACA METO EL FORM PARA PROBAR -->
         <section class="seccion" id="contacto1">
-                <div class="container">            
-                    <form class="row bg-light my-5 mx-4 shadow-lg rounded border-2 ">
-                        <h1 class="text-center">Formulario de contacto:</h1>
-            
-                        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-2 mt-2">
-                            <label for="Nombre" class="form-label">Nombre:</label>
-                            <input type="text" class="form-control border border-info" id="apellido" placeholder="Ingrese su nombre">
+            <form class="formulario">                          
+                <div class="contenedor_form">
+                    <h2 >Contactanos:</h2>
+                    <div class="form_1">
+                        <div>
+                        <input type="text" id="nombre" class="form_input">
+                        <label for="nombre" class="form_label">Nombre</label>
+                        <span class="form_line"></span>                            
+                        </div> 
+                        <div>
+                        <input type="email" id="email" class="form_input">
+                        <label for="email" class="form_label">Email</label>
+                        <span class="form_line"></span>                            
+                        </div> 
+                        <div>
+                        <input type="text" id="telefono" class="form_input">
+                        <label for="telefono" class="form_label">Telefono</label>
+                        <span class="form_line"></span>
+                        </div>    
+                        <div>
+                            <h3>Mensaje:</h3>                               
+                            <textarea name="mensaje" id="message" cols="30" rows="10"></textarea>
+                        </div>                       
+                        <div>
+                        <input type="submit" class="form_submit" value="Enviar">
                         </div>
-        
-                        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-2">
-                            <label for="Celular" class="form-label">Celular:</label>
-                            <input type="text" class="form-control border border-info" placeholder="Ingrese su celular">
-                        </div>
-                        
-                        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-2 mt-2">
-                            <label for="Nombre" class="form-label">Email:</label>
-                            <input type="email" class="form-control border border-info rounded-3" id="email" placeholder="Ingrese su email">
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-2 mt-2">
-                            <label for="cuadroMensaje" class="form-label">Mensaje:</label>
-                            <textarea class="form-control border border-info rounded-3" id="cuadroMensaje" rows="4  " placeholder="Escriba aqui su mensaje"></textarea>
-                          </div>
-        
-                        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6" id="botonEnviar">
-                        <div class="d-grid gap-2 my-3 ju">
-                            <button class="btn btn-success btn-lg me-md-2" type="submit">Enviar</button>
-                           </div>
-                          </div>
-                    </form>      
-                </div>   
+                    </div>
+                                        
+                </div>                     
+            </form>      
         </section>       
     </main>
     
