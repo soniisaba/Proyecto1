@@ -6,10 +6,8 @@
   box-sizing: border-box;
 }
 body  {
-  /* background: #ffffff;   */
   font-family: 'Roboto', sans-serif;
-  background-image: url(imagenes/background.jpg);
-  background-attachment: fixed;
+  background-color: #EDE4E0;
 }
 
 
@@ -127,7 +125,7 @@ a {
   margin-left: 0;
 }
 .row{
-border: solid cyan;
+border: solid #C8DBBE;
 padding: 20px;
 }
 #botonEnviar{ 
