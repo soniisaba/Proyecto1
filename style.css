@@ -221,7 +221,7 @@ main {
 }
 
 .mas-info {
-  font-size: 28px;
+  font-size: 25px;
   background-color: #C8DBBE;
   padding: 15px;
   border-radius: 10px;
@@ -248,19 +248,17 @@ main {
   margin-top: 1em;
   margin-bottom: 50px;
 }
+
 .bebida {
   background-color: white;
   display: block;
-  width: 100%;
+  min-width: 10em;
   margin-top: 30px;
   padding: 20px;
   border-radius: 40px;
   text-align: center;
 }
-.bebida:hover {
-  transform: translate(0px, -10px);
-  transition-timing-function: ease-in-out;
-}
+
 .bebida img{
   height: 150px;
 }
@@ -279,101 +277,88 @@ main {
   padding-bottom: 5px;
 }
 
-/*------------------ACA EMPIEZA EL FORM--------------*/
-/*------------------ACA EMPIEZA EL FORM--------------*/
-/*------------------ACA EMPIEZA EL FORM--------------*/
-/*------------------ACA EMPIEZA EL FORM--------------*/
-/*------------------ACA EMPIEZA EL FORM--------------*/
-/*------------------ACA EMPIEZA EL FORM--------------*/
+/*------------------ACA EMPIEZA EL FORM DEL HOME--------------*/
+/*------------------ACA EMPIEZA EL FORM DEL HOME--------------*/
+/*------------------ACA EMPIEZA EL FORM DEL HOME--------------*/
+/*------------------ACA EMPIEZA EL FORM DEL HOME--------------*/
+/*------------------ACA EMPIEZA EL FORM DEL HOME--------------*/
+/*------------------ACA EMPIEZA EL FORM DEL HOME--------------*/
 
-#contacto1{
+.seccion-form {
   margin-top: 150px;
+  justify-content: center;
+
 }
 
-.formulario{
-  padding:  2em;
-  border-top: 10px;
-  font-family: 'Noto Sans', sans-serif;
-  display: flex;
-  min-height: 50vh;
-  background-size: 5px;
-  background-position: 0 0, 10px 10px;
-  text-align: center;  
+.container-form {
+  padding: 5%;
+  background-color: white;
+  width: 70%;
+  display: block;
+  margin: 0 auto 0 auto;
+  border-radius: 40px;
+
 }
-.contenedor_form{
-  background-image: radial-gradient(circle at 50% 50%, #d5af58 0, #d3a04c 16.67%, #cb8b39 33.33%, #bc6e20 50%, #ad5106 66.67%, #a33700 83.33%, #9e2003 100%);
-  margin: auto;
-  width: 90%;
-  max-width: 600px;
-  padding: 1em 2em;
-  border-radius: 15px;
-  box-shadow: 15px 15px 25px -2px rgb(0 0 0 / 90%); 
+
+.formulario-home {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: white;
+  max-width: 70%;
+  margin: 0 auto 0 auto;
+  justify-content: center;
 }
-h2{ 
-  text-decoration: underline;  
-  font-style: oblique;
-  font-size: 2rem;
+
+#titulo-form {
   margin-bottom: 30px;
 }
-.form_1{
-  position: relative;
-  border: none;
-  display: grid;
-  margin-top: 20px;
-  gap: 40px;  
+
+.contenido {
+  padding: 5px;
+  margin: 10px;
+  background-color: white;
 }
-.form_input{ 
-  font-family: 'Noto Sans', sans-serif;
-  width: 100%; 
-  font-size: 1rem;
-  border: none;
-  border-bottom: 1.5px solid #9a8478;
-  outline: none;
-  padding-bottom: 0;   
+
+.form-texto {
+  min-width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
 }
-.form_input:focus + .form_label{
-  transform: translateY(-30px);
+
+form label {
+  font-size: 1em;
 }
-.form_label{  
-  margin-top: 4px;
-  color: #000000;  
-  cursor: pointer;
-  position: absolute;
-  left: 1px;
-  transform: translateY(-5px); 
-  transition: transform .6seg;
+
+.text-area {
+  width: 300px;
+  border-radius: 10px;
+  border-color: rgb(0, 0, 0);
 }
-.form_submit{
-  margin-top: 0;
-  padding: 10px; 
-  font-family: 'Noto Sans', sans-serif;
-  width: 100%;
-  background-color: #9a8478; 
+
+.submit-form {
+  font-size: 20px;
+  background-color: #C8DBBE;
+  padding: 10px 60px;
+  border-radius: 10px;
+  border-style: hidden;
+  display: block;
+  margin: 10px auto 0 auto;
 }
-h3
-{
-  font-size: 16px;
-  padding: 0%;
-  margin-top: 0;
-  margin-bottom: 0%;
-  border: none;
-}
-textarea
-{
-  font-size: 22px;
-  margin-top: 10px; 
-  margin-bottom: 0px;
-  width: 100%;
-  height: 200px;   
-  outline: none;
+
+::placeholder {
+  opacity: .5;
+  padding: 10px;
 }
 
 /*****************************************ACA EMPIEZA MENÚ*********************************//*****************************************ACA EMPIEZA MENÚ*********************************/
 /*****************************************ACA EMPIEZA MENÚ*********************************//*****************************************ACA EMPIEZA MENÚ*********************************/
 
 .seccion-menu {
-  margin-top: 70px;
-  background-color: #b4a294;
+  margin-top: 60px;
+  background-color: #EDE4E0;
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -393,7 +378,7 @@ textarea
 .tarjeta{
   font-size: 16px;    
   min-width: 8em;
-  background-color: #e9d7c8;
+  background-color: white;
   border-radius: 1.5rem; 
   text-align: center;    
   font-style: oblique;    
@@ -413,6 +398,7 @@ width: 130px;
 
 .titulo-comida {
   margin-top: 100px;
+  font-size: 2em;
 }
 
 
@@ -553,31 +539,7 @@ color: #000000;
   text-align: justify;
 
 }
-
-
-@media (max-width:780px) {
-
-  .imgPortada{
-      z-index: -2;
-      position: absolute;
-  }
-
-  #Titulo1 {
-      z-index: -1;
-      position: absolute;
-      top:250px; 
-      font-size: 25px; 
-  }
-
-  #subtitulo1{
-      z-index: -1;
-      position: absolute;
-      top:300px; 
-      font-size: 35px;
-  }
-
-
-}    
+ 
 
 /*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*/
 /*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*/
@@ -666,6 +628,10 @@ color: #000000;
     grid-template-columns: auto auto auto;
 
   }
+  .formulario-home {
+    display: grid;
+    grid-template-columns: auto;
+  }
 }
 
 @media (max-width:700px){
@@ -678,6 +644,70 @@ color: #000000;
   .tarjetero{
     grid-template-columns: auto auto ;  
   }
+
+    .imgPortada{
+      z-index: -2;
+      position: absolute;
+  }
+
+  #Titulo1 {
+      z-index: -1;
+      position: absolute;
+      top:250px; 
+      font-size: 25px; 
+  }
+
+  #subtitulo1{
+      z-index: -1;
+      position: absolute;
+      top:300px; 
+      font-size: 35px;
+  }
+
+  /* form query home */  /* form query home */
+  /* form query home */  /* form query home */
+  /* form query home */  /* form query home */
+  /* form query home */  /* form query home */
+
+
+  
+  .formulario-home {
+    width: 100%;
+  }
+  
+  #titulo-form {
+    margin-bottom: 30px;
+  }
+  
+  .contenido {
+    padding: 5px;
+    margin: 5px;
+    background-color: white;
+  }
+  
+  .form-texto {
+    height: 40px;
+    min-width: 250px;
+  }
+  
+  form label {
+    font-size: 0.8em;
+  }
+  
+  .text-area {
+    width: 250px;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+  }
+  
+  .submit-form {
+    font-size: 20px;
+    background-color: #C8DBBE;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border-style: hidden;
+  }
+
 } 
 
 @media (max-width:400px){
