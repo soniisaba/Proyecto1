@@ -370,7 +370,11 @@ form label {
 /*--------------FOOTER--------------*//*--------------FOOTER--------------*//*--------------FOOTER--------------*/
 /*--------------FOOTER--------------*//*--------------FOOTER--------------*/
 
-.footer{
+.body-1 {
+  background-color: #c6b8ac;
+}
+
+.footer2{
   width: 100%;
   display: grid;
   justify-content: center;
@@ -553,7 +557,27 @@ margin: 2px auto;
 color: #000000;
 text-align: center;
 }
- 
+
+
+/*--------CONTACTO PAGINA----------*//*--------CONTACTO PAGINA----------*//*--------CONTACTO PAGINA----------*/
+ /*--------CONTACTO PAGINA----------*//*--------CONTACTO PAGINA----------*//*--------CONTACTO PAGINA----------*/
+ /*--------CONTACTO PAGINA----------*//*--------CONTACTO PAGINA----------*//*--------CONTACTO PAGINA----------*/
+ /*--------CONTACTO PAGINA----------*//*--------CONTACTO PAGINA----------*//*--------CONTACTO PAGINA----------*/
+ /*--------CONTACTO PAGINA----------*//*--------CONTACTO PAGINA----------*//*--------CONTACTO PAGINA----------*/
+ /*--------CONTACTO PAGINA----------*//*--------CONTACTO PAGINA----------*//*--------CONTACTO PAGINA----------*/
+
+.container{    
+  margin-top: 100px;
+  margin-left: 0;
+}
+.row{
+border: solid #C8DBBE;
+padding: 20px;
+}
+#botonEnviar{ 
+justify-content: center; 
+align-content: center; 
+}
 
 /*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*/
 /*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*/
@@ -645,7 +669,7 @@ text-align: center;
     grid-template-columns: auto;
   }
 
-  .footer{
+  .footer2{
     grid-template-columns: 50%;
   }
   .seccion-logo-footer {
