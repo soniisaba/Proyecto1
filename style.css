@@ -20,7 +20,7 @@ body  {
 /* TODO ESTO ES EL HEADER - COMÚN PARA TODAS LAS PÁGINAS*/
 /* TODO ESTO ES EL HEADER - COMÚN PARA TODAS LAS PÁGINAS*/
 header {
-  background-color:rgba(159, 135, 114, 0.712);
+  background-color:rgba(159, 135, 114, 0.851);
   Height: 70px;
   position: fixed;
   width: 100%;
@@ -39,7 +39,6 @@ a {
 }
 
 .navbar {
-  
   min-height: 70px;
   display: flex;
   justify-content: space-between;
@@ -61,10 +60,11 @@ a {
   background-color: #C8DBBE;
   padding: 8px 12px;
   border-radius: 10px;
+  cursor: pointer;
 }
  
 .contacto:hover {
-  background-color: rgba(166, 150, 141, 0.87);
+  background-color: #94a48c;
   padding: 8px 12px;
   border-radius: 10px;
 }
@@ -84,8 +84,7 @@ a {
 /* ---------------- */ 
 
 #foto-logo {
-  width: 35px;
-
+  width: 200px;
 }
 
 .titulo1 {
@@ -225,7 +224,13 @@ main {
   background-color: #C8DBBE;
   padding: 15px;
   border-radius: 10px;
+  cursor: pointer;
 }
+
+.mas-info:hover {
+  background-color: #94a48c;
+}
+
 /*EMPIEZA ------ BEBIDAS -------------------------- SOLO PARA EL HOME */
 /*EMPIEZA ------ BEBIDAS -------------------------- SOLO PARA EL HOME */
 /*EMPIEZA ------ BEBIDAS -------------------------- SOLO PARA EL HOME */
@@ -346,12 +351,96 @@ form label {
   border-style: hidden;
   display: block;
   margin: 10px auto 0 auto;
+  cursor: pointer;
+}
+
+.submit-form:hover {
+  background-color: #94a48c;
 }
 
 ::placeholder {
   opacity: .5;
   padding: 10px;
 }
+
+
+/*--------------FOOTER--------------*//*--------------FOOTER--------------*//*--------------FOOTER--------------*/
+/*--------------FOOTER--------------*//*--------------FOOTER--------------*//*--------------FOOTER--------------*/
+/*--------------FOOTER--------------*//*--------------FOOTER--------------*//*--------------FOOTER--------------*/
+/*--------------FOOTER--------------*//*--------------FOOTER--------------*//*--------------FOOTER--------------*/
+/*--------------FOOTER--------------*//*--------------FOOTER--------------*/
+
+.footer{
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  color: rgb(0, 0, 0);  
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+
+
+.telefonos{
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-left: solid black;
+}
+
+
+.copyright{
+  color: #793905;
+  display: flex;   
+  justify-content: center;
+  border-top: #000000 double;
+}
+
+.logoFooter{
+  display: flex; 
+  padding: 0;
+  width: 300px; 
+  padding-right: 20px;
+  margin: 0 auto 0 auto;
+}
+li{
+  margin: 14px;
+  margin-left: 0%;
+}
+
+.h2Telefonos{ 
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 20px;
+  text-decoration: underline;
+  color: #000000;
+}
+
+.redes{
+  border-left: solid black;
+  color: #ffffff;
+}
+
+.redes li {
+  font-size: 18px;
+  text-align: center;
+}
+
+.fa-brands{
+  opacity: 75%;
+  color: #000000;
+}
+.fa-phone{
+  color: #000000;
+  opacity: 75%;  
+}
+
+/*--------------FOOTER--------------*//*--------------FOOTER--------------*//*--------------FOOTER--------------*/
+/*--------------FOOTER--------------*//*--------------FOOTER--------------*//*--------------FOOTER--------------*/
+/*--------------FOOTER--------------*//*--------------FOOTER--------------*//*--------------FOOTER--------------*/
+/*--------------FOOTER--------------*//*--------------FOOTER--------------*//*--------------FOOTER--------------*/
+/*--------------FOOTER--------------*//*--------------FOOTER--------------*/
+
 
 /*****************************************ACA EMPIEZA MENÚ*********************************//*****************************************ACA EMPIEZA MENÚ*********************************/
 /*****************************************ACA EMPIEZA MENÚ*********************************//*****************************************ACA EMPIEZA MENÚ*********************************/
@@ -632,6 +721,31 @@ color: #000000;
     display: grid;
     grid-template-columns: auto;
   }
+
+  .footer{
+    grid-template-columns: 50%;
+  }
+  .seccion-logo-footer {
+    border-bottom: black solid;
+  }
+  .logoFooter{
+    width: 200px; 
+    margin: 10px auto 0 auto;
+    padding-bottom: 30px;
+    border-left: none;
+  }
+  .telefonos {
+    margin: 30px;
+    border-left: none;
+  }
+
+  .redes{
+    border-top: solid black;
+    color: #ffffff;
+    border-left: none;
+    padding-top: 30px;
+  }
+
 }
 
 @media (max-width:700px){
