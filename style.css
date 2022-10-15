@@ -7,7 +7,7 @@
 }
 
 body  {
-  background: #ffffff;  /* fallback for old browsers */
+  background: #EDE4E0;  /* fallback for old browsers */
   background-color: #c6b8ac;
   font-family: 'Roboto', sans-serif;
 }
@@ -20,7 +20,7 @@ body  {
 /* TODO ESTO ES EL HEADER - COMÚN PARA TODAS LAS PÁGINAS*/
 /* TODO ESTO ES EL HEADER - COMÚN PARA TODAS LAS PÁGINAS*/
 header {
-  background-color:rgba(166, 150, 141, 0.824);
+  background-color:rgba(159, 135, 114, 0.851);
   Height: 70px;
   position: fixed;
   width: 100%;
@@ -29,17 +29,16 @@ header {
 }
 
 li {
-  list-style: none;
+  list-style: none;  
   font-size: 20px;
 }
 
 a {
-  text-decoration: none;
-  color: black;
+  text-decoration: none; 
+  color: black; 
 }
 
 .navbar {
-  
   min-height: 70px;
   display: flex;
   justify-content: space-between;
@@ -58,13 +57,14 @@ a {
 
 /*contacto*/
 .contacto {
-  background-color: #52484497;
+  background-color: #C8DBBE;
   padding: 8px 12px;
   border-radius: 10px;
+  cursor: pointer;
 }
  
 .contacto:hover {
-  background-color: rgba(166, 150, 141, 0.824);
+  background-color: #94a48c;
   padding: 8px 12px;
   border-radius: 10px;
 }
@@ -84,8 +84,7 @@ a {
 /* ---------------- */ 
 
 #foto-logo {
-  width: 35px;
-
+  width: 200px;
 }
 
 .titulo1 {
@@ -208,7 +207,7 @@ main {
 /*EMPIEZA ------ SOBRE NOSOTROS ----- SOLO PARA EL HOME */
 
 .seccion {
-  background-color: #b4a294;
+  background-color: #EDE4E0;
   padding: 30px;
   font-size: 24px;
   text-align: center;
@@ -217,15 +216,21 @@ main {
 .descripcion {
   padding-bottom: 20px;
   margin-top: 20px;
+  margin-bottom: 50px;
 }
+
 .mas-info {
-  font-size: 28px;
-  margin-top: 100px;
-  background-color: #eae7e5;
+  font-size: 25px;
+  background-color: #C8DBBE;
   padding: 15px;
   border-radius: 10px;
-
+  cursor: pointer;
 }
+
+.mas-info:hover {
+  background-color: #94a48c;
+}
+
 /*EMPIEZA ------ BEBIDAS -------------------------- SOLO PARA EL HOME */
 /*EMPIEZA ------ BEBIDAS -------------------------- SOLO PARA EL HOME */
 /*EMPIEZA ------ BEBIDAS -------------------------- SOLO PARA EL HOME */
@@ -246,20 +251,19 @@ main {
   grid-template-columns: auto auto auto auto;
   justify-content: center;
   margin-top: 1em;
+  margin-bottom: 50px;
 }
+
 .bebida {
   background-color: white;
   display: block;
-  width: 100%;
+  min-width: 10em;
   margin-top: 30px;
   padding: 20px;
   border-radius: 40px;
   text-align: center;
 }
-.bebida:hover {
-  transform: translate(0px, -10px);
-  transition-timing-function: ease-in-out;
-}
+
 .bebida img{
   height: 150px;
 }
@@ -278,101 +282,176 @@ main {
   padding-bottom: 5px;
 }
 
-/*------------------ACA EMPIEZA EL FORM--------------*/
-/*------------------ACA EMPIEZA EL FORM--------------*/
-/*------------------ACA EMPIEZA EL FORM--------------*/
-/*------------------ACA EMPIEZA EL FORM--------------*/
-/*------------------ACA EMPIEZA EL FORM--------------*/
-/*------------------ACA EMPIEZA EL FORM--------------*/
+/*------------------ACA EMPIEZA EL FORM DEL HOME--------------*/
+/*------------------ACA EMPIEZA EL FORM DEL HOME--------------*/
+/*------------------ACA EMPIEZA EL FORM DEL HOME--------------*/
+/*------------------ACA EMPIEZA EL FORM DEL HOME--------------*/
+/*------------------ACA EMPIEZA EL FORM DEL HOME--------------*/
+/*------------------ACA EMPIEZA EL FORM DEL HOME--------------*/
 
-#contacto1{
+.seccion-form {
   margin-top: 150px;
+  justify-content: center;
+
 }
 
-.formulario{
-  padding:  2em;
-  border-top: 10px;
-  font-family: 'Noto Sans', sans-serif;
-  display: flex;
-  min-height: 50vh;
-  background-size: 5px;
-  background-position: 0 0, 10px 10px;
-  text-align: center;  
+.container-form {
+  padding: 5%;
+  background-color: white;
+  width: 70%;
+  display: block;
+  margin: 0 auto 0 auto;
+  border-radius: 40px;
+
 }
-.contenedor_form{
-  background-image: radial-gradient(circle at 50% 50%, #d5af58 0, #d3a04c 16.67%, #cb8b39 33.33%, #bc6e20 50%, #ad5106 66.67%, #a33700 83.33%, #9e2003 100%);
-  margin: auto;
-  width: 90%;
-  max-width: 600px;
-  padding: 1em 2em;
-  border-radius: 15px;
-  box-shadow: 15px 15px 25px -2px rgb(0 0 0 / 90%); 
+
+.formulario-home {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: white;
+  max-width: 70%;
+  margin: 0 auto 0 auto;
+  justify-content: center;
 }
-h2{ 
-  text-decoration: underline;  
-  font-style: oblique;
-  font-size: 2rem;
+
+#titulo-form {
   margin-bottom: 30px;
 }
-.form_1{
-  position: relative;
-  border: none;
-  display: grid;
-  margin-top: 20px;
-  gap: 40px;  
+
+.contenido {
+  padding: 5px;
+  margin: 10px;
+  background-color: white;
 }
-.form_input{ 
-  font-family: 'Noto Sans', sans-serif;
-  width: 100%; 
-  font-size: 1rem;
-  border: none;
-  border-bottom: 1.5px solid #9a8478;
-  outline: none;
-  padding-bottom: 0;   
+
+.form-texto {
+  min-width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
 }
-.form_input:focus + .form_label{
-  transform: translateY(-30px);
+
+form label {
+  font-size: 1em;
 }
-.form_label{  
-  margin-top: 4px;
-  color: #000000;  
+
+.text-area {
+  width: 300px;
+  border-radius: 10px;
+  border-color: rgb(0, 0, 0);
+}
+
+.submit-form {
+  font-size: 20px;
+  background-color: #C8DBBE;
+  padding: 10px 60px;
+  border-radius: 10px;
+  border-style: hidden;
+  display: block;
+  margin: 10px auto 0 auto;
   cursor: pointer;
-  position: absolute;
-  left: 1px;
-  transform: translateY(-5px); 
-  transition: transform .6seg;
 }
-.form_submit{
-  margin-top: 0;
-  padding: 10px; 
+
+.submit-form:hover {
+  background-color: #94a48c;
+}
+
+::placeholder {
+  opacity: .5;
+  padding: 10px;
+}
+
+
+/*--------------FOOTER--------------*//*--------------FOOTER--------------*//*--------------FOOTER--------------*/
+/*--------------FOOTER--------------*//*--------------FOOTER--------------*//*--------------FOOTER--------------*/
+/*--------------FOOTER--------------*//*--------------FOOTER--------------*//*--------------FOOTER--------------*/
+/*--------------FOOTER--------------*//*--------------FOOTER--------------*//*--------------FOOTER--------------*/
+/*--------------FOOTER--------------*//*--------------FOOTER--------------*/
+
+.body-1 {
+  background-color: #c6b8ac;
+}
+
+.footer2{
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  color: rgb(0, 0, 0);  
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+
+
+.telefonos{
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-left: solid black;
+}
+
+
+.copyright{
+  color: #793905;
+  display: flex;   
+  justify-content: center;
+  border-top: #000000 double;
+}
+
+.logoFooter{
+  display: flex; 
+  padding: 0;
+  width: 300px; 
+  padding-right: 20px;
+  margin: 0 auto 0 auto;
+}
+li{
+  margin: 14px;
+  margin-left: 0%;
+}
+
+.h2Telefonos{ 
   font-family: 'Noto Sans', sans-serif;
-  width: 100%;
-  background-color: #9a8478; 
+  font-size: 20px;
+  text-decoration: underline;
+  color: #000000;
 }
-h3
-{
-  font-size: 16px;
-  padding: 0%;
-  margin-top: 0;
-  margin-bottom: 0%;
-  border: none;
+
+.redes{
+  border-left: solid black;
+  color: #ffffff;
 }
-textarea
-{
-  font-size: 22px;
-  margin-top: 10px; 
-  margin-bottom: 0px;
-  width: 100%;
-  height: 200px;   
-  outline: none;
+
+.redes li {
+  font-size: 18px;
+  text-align: center;
 }
+
+.fa-brands{
+  opacity: 75%;
+  color: #000000;
+}
+.fa-phone{
+  color: #000000;
+  opacity: 75%;  
+}
+
+/*--------------FOOTER--------------*//*--------------FOOTER--------------*//*--------------FOOTER--------------*/
+/*--------------FOOTER--------------*//*--------------FOOTER--------------*//*--------------FOOTER--------------*/
+/*--------------FOOTER--------------*//*--------------FOOTER--------------*//*--------------FOOTER--------------*/
+/*--------------FOOTER--------------*//*--------------FOOTER--------------*//*--------------FOOTER--------------*/
+/*--------------FOOTER--------------*//*--------------FOOTER--------------*/
+
 
 /*****************************************ACA EMPIEZA MENÚ*********************************//*****************************************ACA EMPIEZA MENÚ*********************************/
 /*****************************************ACA EMPIEZA MENÚ*********************************//*****************************************ACA EMPIEZA MENÚ*********************************/
 
 .seccion-menu {
-  margin-top: 70px;
-  background-color: #b4a294;
+  padding-top: 60px;
+  background-color: #EDE4E0;
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -389,10 +468,14 @@ textarea
   word-wrap: normal;
 }
 
+.tarjetero2{
+  margin-bottom: 100px;
+}
+
 .tarjeta{
   font-size: 16px;    
   min-width: 8em;
-  background-color: #e9d7c8;
+  background-color: white;
   border-radius: 1.5rem; 
   text-align: center;    
   font-style: oblique;    
@@ -411,7 +494,89 @@ width: 130px;
 }
 
 .titulo-comida {
+  margin: 50px 0 50px 0;
+  font-size: 2em;
+}
+
+
+
+
+/* ------------------- SOBRE NOSOTROS PAGINA ------------------ *//* ------------------- SOBRE NOSOTROS PAGINA ------------------ */
+/* ------------------- SOBRE NOSOTROS PAGINA ------------------ *//* ------------------- SOBRE NOSOTROS PAGINA ------------------ */
+/* ------------------- SOBRE NOSOTROS PAGINA ------------------ *//* ------------------- SOBRE NOSOTROS PAGINA ------------------ */
+/* ------------------- SOBRE NOSOTROS PAGINA ------------------ *//* ------------------- SOBRE NOSOTROS PAGINA ------------------ */
+/* ------------------- SOBRE NOSOTROS PAGINA ------------------ *//* ------------------- SOBRE NOSOTROS PAGINA ------------------ */
+/* ------------------- SOBRE NOSOTROS PAGINA ------------------ *//* ------------------- SOBRE NOSOTROS PAGINA ------------------ */
+
+
+.sobre-nosotros {
+  margin-top: 67px;
+}
+
+.logoGalaxy-sobre {
+  width: 400px;
+}
+
+.contenedor-titulo-ppal{
+display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.separador{
+margin: 0 auto;
+padding: 30px 0px 50px 0px;
+display: block;
+text-align:center;
+width: 100%;
+}
+
+.contenedor2{
+width: 1200px;
+margin: 0 auto;
+max-width: 80%;
+}
+
+.titulo-principal{
+  font-size: 1.5em;
+  font-family: 'globerregular';
+  line-height: 1.6em;
+  width: 100%;
+  margin: 2px auto;
+  color: #000000;
+  text-align:center;
+}
+
+.texto-principal{
+font-size: 1em;
+font-family: 'globerregular';
+line-height: 1.6em;
+width: 100%;
+margin: 2px auto;
+color: #000000;
+text-align: center;
+}
+
+
+/*--------CONTACTO PAGINA----------*//*--------CONTACTO PAGINA----------*//*--------CONTACTO PAGINA----------*/
+ /*--------CONTACTO PAGINA----------*//*--------CONTACTO PAGINA----------*//*--------CONTACTO PAGINA----------*/
+ /*--------CONTACTO PAGINA----------*//*--------CONTACTO PAGINA----------*//*--------CONTACTO PAGINA----------*/
+ /*--------CONTACTO PAGINA----------*//*--------CONTACTO PAGINA----------*//*--------CONTACTO PAGINA----------*/
+ /*--------CONTACTO PAGINA----------*//*--------CONTACTO PAGINA----------*//*--------CONTACTO PAGINA----------*/
+ /*--------CONTACTO PAGINA----------*//*--------CONTACTO PAGINA----------*//*--------CONTACTO PAGINA----------*/
+
+.container{    
   margin-top: 100px;
+  margin-left: 0;
+}
+.row{
+border: solid #C8DBBE;
+padding: 20px;
+}
+#botonEnviar{ 
+justify-content: center; 
+align-content: center; 
 }
 
 /*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*/
@@ -497,15 +662,45 @@ width: 130px;
     border-radius: 40px;
   }
   .tarjetero{
-
     grid-template-columns: auto auto auto;
-
   }
+  .formulario-home {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .footer2{
+    grid-template-columns: 50%;
+  }
+  .seccion-logo-footer {
+    border-bottom: black solid;
+  }
+  .logoFooter{
+    width: 200px; 
+    margin: 10px auto 0 auto;
+    padding-bottom: 30px;
+    border-left: none;
+  }
+  .telefonos {
+    margin: 30px;
+    border-left: none;
+  }
+
+  .redes{
+    border-top: solid black;
+    color: #ffffff;
+    border-left: none;
+    padding-top: 30px;
+  }
+  .tarjetero2{
+    margin-bottom: 250px;
+  }
+
 }
 
 @media (max-width:700px){
   #seccion-menu {
-    padding: 0px 10px 30px 10px;
+    padding: 0px 10px 100px 10px;
     display: grid;
     gap: 4%;
     grid-template-columns: auto;
@@ -513,6 +708,70 @@ width: 130px;
   .tarjetero{
     grid-template-columns: auto auto ;  
   }
+
+    .imgPortada{
+      z-index: -2;
+      position: absolute;
+  }
+
+  #Titulo1 {
+      z-index: -1;
+      position: absolute;
+      top:250px; 
+      font-size: 25px; 
+  }
+
+  #subtitulo1{
+      z-index: -1;
+      position: absolute;
+      top:300px; 
+      font-size: 35px;
+  }
+
+  /* form query home */  /* form query home */
+  /* form query home */  /* form query home */
+  /* form query home */  /* form query home */
+  /* form query home */  /* form query home */
+
+
+  
+  .formulario-home {
+    width: 100%;
+  }
+  
+  #titulo-form {
+    margin-bottom: 30px;
+  }
+  
+  .contenido {
+    padding: 5px;
+    margin: 5px;
+    background-color: white;
+  }
+  
+  .form-texto {
+    height: 40px;
+    min-width: 250px;
+  }
+  
+  form label {
+    font-size: 0.8em;
+  }
+  
+  .text-area {
+    width: 250px;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+  }
+  
+  .submit-form {
+    font-size: 20px;
+    background-color: #C8DBBE;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border-style: hidden;
+  }
+
 } 
 
 @media (max-width:400px){

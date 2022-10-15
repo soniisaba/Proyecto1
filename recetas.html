@@ -1,32 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./recetas.css">
         <link rel="shortcut icon" href="./imagenes/Iconocafe.png" type="image/x-icon">
     </head>
-    
 <body>
-    <title>Cafeterias</title>
-    <header>
-        <nav class="navbar">
-            <a href="home.html" class="titulo1"><img src="./imagenes/Logos/GalaxyLogo1.png" id="foto-logo"></a>
-            <ul class="nav-menu">                          
-                <li class="nav-item"><a href=".//bebidas.html" class="nav-menu-link nav-link" >Nuestro Menú</a></li>
-                <li class="nav-item"><a href="#sobre-nosotros-home" class="nav-menu-link nav-link" >Sobre Nosotros</a></li>
-                <li class="nav-item"><a href="./Sucursales.html" class="nav-menu-link nav-link">Sucursales</a></li>
-                <li class="nav-item"><a href=".//contactos1.html" class="contacto">Contacto</a></li>            
-            </ul>    
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
+    <h1 id="titutloRecetas">Recetas:</h1>
+    <div id="app">
+       
+        <div class="contenedorApi">
+
+            <div v-for="cafe of cafes" class="card">
+                <img :src="cafe.image" :alt="cafe.title">
+                <div class="cuerpo">
+                    <h3>{{cafe.title}}</h3>
+                    <p>{{cafe.description}}</p>
+                    <h4 class="tituloIngredientes">Ingredientes:</h4>
+                    <ul class="lista">
+                        <ol v-for="ingrediente of cafe.ingredients">
+                            {{ingrediente}}
+                        </ol>
+                    </ul>
+                </div>
+
             </div>
-        </nav>
-    </header>
-    <main></main>
+
+        </div>
+
+
+    </div>
     <footer class="footer2">
         <div class="seccion-logo-footer">
             <img src="./imagenes/Logos/GalaxyLogo1.png" class="logoFooter" alt="">
@@ -45,7 +52,10 @@
                 <li><a href="https://www.linkedin.com/home"> <i class="fa-brands fa-linkedin fa-2xl"></i></a>  Siguenos en Linkedin</li>                
             </ul>
         </div>         
-    </footer>
+    </footer>  
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="script.js"></script>
+    <script src="./recetas.js"></script>
 </body>
+
 </html>

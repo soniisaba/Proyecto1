@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body  {
+  background: #EDE4E0;  /* fallback for old browsers */
+  background-color: #c6b8ac;
+  font-family: 'Roboto', sans-serif;
+}
+#titutloRecetas{    
+    margin: 20px;
+    justify-items: center;
+    text-align: center;
+    font-size: 50px;
+}
+.contenedorApi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin: 20px;
+    margin-top: 20px;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;    
+    border: 1px solid rgb(252, 231, 231);
+    margin: 10px;
+    border-radius: 1.2rem;
+    width: 300px;
+    font-family: 'Josefin Sans', sans-serif;     
+}
+.lista{
+    margin-top: 5px;
+}
+.cuerpo{
+    padding: 10px;
+}
+.card img{     
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 1.2rem;
+}

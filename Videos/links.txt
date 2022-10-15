@@ -1,0 +1,2 @@
+Link Api rest:
+https://api.sampleapis.com/coffee/hot
