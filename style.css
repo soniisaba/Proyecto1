@@ -446,7 +446,7 @@ li{
 /*****************************************ACA EMPIEZA MENÚ*********************************//*****************************************ACA EMPIEZA MENÚ*********************************/
 
 .seccion-menu {
-  margin-top: 60px;
+  padding-top: 60px;
   background-color: #EDE4E0;
   padding-left: 50px;
   padding-right: 50px;
@@ -486,7 +486,7 @@ width: 130px;
 }
 
 .titulo-comida {
-  margin-top: 100px;
+  margin: 50px 0 50px 0;
   font-size: 2em;
 }
 
