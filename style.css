@@ -579,6 +579,44 @@ justify-content: center;
 align-content: center; 
 }
 
+/*--------SUCURSALES PAGINA----------*//*--------SUCURSALES PAGINA----------*//*--------SUCURSALES PAGINA----------*//*--------SUCURSALES PAGINA----------*/
+/*--------SUCURSALES PAGINA----------*//*--------SUCURSALES PAGINA----------*//*--------SUCURSALES PAGINA----------*/
+/*--------SUCURSALES PAGINA----------*//*--------SUCURSALES PAGINA----------*//*--------SUCURSALES PAGINA----------*/
+/*--------SUCURSALES PAGINA----------*//*--------SUCURSALES PAGINA----------*//*--------SUCURSALES PAGINA----------*/
+
+.mapa{
+  width: 100%;
+  height: 100%;
+}
+
+.seccion-mapa {
+  margin-top: 65px;
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+
+.direcciones {
+  background-color: white;
+  border-radius: 10px;
+  padding: 5%;
+  margin: 10px 0 0 10px;
+}
+
+.horario {
+  border-top: #000000 solid;
+  padding-top: 5px;
+  margin-top: 5px;
+}
+
+.direcciones p {
+  font-size: 20px;
+}
+
+.direcciones h4 {
+  font-size: 22px;
+}
+
 /*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*/
 /*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*/
 /*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*//*media querys*/
@@ -694,6 +732,17 @@ align-content: center;
   }
   .tarjetero2{
     margin-bottom: 250px;
+  }
+
+  /*-----------SUCURSALES---------*/
+  .seccion-mapa {
+    margin-top: 65px;
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .mapa {
+    height: 600px;
   }
 
 }
