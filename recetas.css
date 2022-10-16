@@ -12,7 +12,8 @@ body  {
   font-family: 'Roboto', sans-serif;
 }
 #titutloRecetas{    
-    margin: 20px;
+    margin-top: 70px;
+    margin-bottom: 0;
     justify-items: center;
     text-align: center;
     font-size: 50px;
@@ -22,7 +23,7 @@ body  {
     flex-wrap: wrap;
     justify-content:space-around;
     margin: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .card{
     display: flex;
