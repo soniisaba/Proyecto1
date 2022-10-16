@@ -913,6 +913,7 @@ align-content: center;
   z-index: -1;
   grid-template-columns: auto;
   justify-content: center; 
+  margin-bottom: 300px;
 
   }
 
