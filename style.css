@@ -47,7 +47,6 @@ a {
 }
 
 .nav-menu {
-  
      display: flex;
      justify-content: space-between;
      align-items: center;
@@ -418,6 +417,7 @@ form label {
   align-items: center;
   text-align: center;
   border-left: solid black;
+  width: 90%;
 }
 
 
@@ -460,6 +460,7 @@ li{
 .fa-brands{
   opacity: 75%;
   color: #000000;
+  z-index: 1;
 }
 .fa-phone{
   color: #000000;
@@ -724,6 +725,7 @@ align-content: center;
     width: 100%;
     text-align: center;
     transition: 0,5s;
+    z-index: 10;
   }
 
   .nav-item {
@@ -925,7 +927,7 @@ align-content: center;
   }
 
   .tarjetero2{
-    margin-bottom: 100px;
+    margin-bottom: 300px;
   }
 
   .titulo-comida {
