@@ -462,7 +462,7 @@ li{
   grid-template-columns: auto auto auto auto;
   padding-top: 10px;
   font-size: 20px;
-  gap: 0.2%;
+  gap: 0.5%;
   word-wrap: normal;
 }
 
@@ -802,9 +802,14 @@ align-content: center;
     gap: 4%;
     grid-template-columns: auto;
   }
+
   .tarjetero{
-    grid-template-columns: auto auto ;  
+    grid-template-columns: auto auto;  
   }
+  .tarjeta {
+    min-width: 200px;
+  }
+
 
     .imgPortada{
       z-index: -2;
