@@ -302,7 +302,6 @@ main {
   display: block;
   margin: 0 auto 0 auto;
   border-radius: 40px;
-
 }
 
 .formulario-home {
@@ -458,13 +457,12 @@ li{
 
 .tarjetero{
   display: grid;    
-  width: 100%;
+  width: 100%;  
   justify-content: space-around; 
   grid-template-columns: auto auto auto auto;
-  align-items: center;
   padding-top: 10px;
   font-size: 20px;
-  gap: 2%;
+  gap: 0.2%;
   word-wrap: normal;
 }
 
@@ -472,7 +470,7 @@ li{
   margin-bottom: 100px;
 }
 
-.tarjeta{
+.tarjeta {
   font-size: 16px;    
   min-width: 8em;
   background-color: white;
@@ -514,7 +512,7 @@ width: 130px;
 }
 
 .logoGalaxy-sobre {
-  width: 400px;
+  width: 70%;
 }
 
 .contenedor-titulo-ppal{
@@ -833,7 +831,9 @@ align-content: center;
   /* form query home */  /* form query home */
 
 
-  
+  .container-form {
+    width: 100%;
+  }
   .formulario-home {
     width: 100%;
   }
@@ -883,5 +883,20 @@ align-content: center;
 
   .tarjeta {
     margin-top: 0;
+    width: 300px;
+    font-size: 1em;
+  }
+
+  .logoGalaxy-sobre {
+    width: 100%;
+  }
+
+  .tarjetero2{
+    margin-bottom: 100px;
+  }
+
+  .titulo-comida {
+    margin: 100px 0 10px 0;
+    font-size: 2em;
   }
 } 
