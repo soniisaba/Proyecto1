@@ -45,7 +45,7 @@ function validar(){
         alert("Email debe tener maximo 100 caracteres");
         return false;
     }
-    else if(!expresion.test(email)){
+    else if(expresion.test(email)){
         alert("Email debe ser valido");
         return false;    
     }
