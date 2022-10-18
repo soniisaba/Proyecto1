@@ -20,7 +20,7 @@ function validar(){
     celular= document.getElementById("celular").value;
     email= document.getElementById("email").value;
     mensaje = document.getElementById("cuadroMensaje").value;
-    expresion = /\w + @\w +\.+[a-z]/;
+    expresion = /\w + @\w +\. [a-z]/;
     
     if(nombre === "" || celular === ""|| email === ""){
         alert("Complete el formulario con los campos requeridos");
@@ -45,7 +45,7 @@ function validar(){
         alert("Email debe tener maximo 100 caracteres");
         return false;
     }
-    else if(!expresion.test(email)){
+    else if(expresion.test(email)){
         alert("Email debe ser valido");
         return false;    
     }
