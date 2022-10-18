@@ -725,15 +725,17 @@ align-content: center;
     width: 100%;
     text-align: center;
     transition: 0,5s;
-    z-index: 10;
+    z-index: 100;
   }
 
   .nav-item {
     margin: 16px 0;
+    z-index: 15;
   }
 
   .nav-menu.active {
     left: 0;    
+    z-index: 15;
   }
 
   .titulo1 {
@@ -741,6 +743,7 @@ align-content: center;
     margin-right: auto;
   }
  
+
   /* Sombreado de seleccion en Menu */  /* Sombreado de seleccion en Menu */  /* Sombreado de seleccion en Menu */
 
   .nav-menu-link:hover,   
