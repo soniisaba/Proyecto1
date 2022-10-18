@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./style.css">
     <script src="https://kit.fontawesome.com/75a592b408.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="./imagenes/Iconocafe.png" type="image/x-icon">
-    <title>GalaxyCoffee</title>
+    <title>Galaxy Café - Contacto</title>
 </head>
 
 <body class="body-1">     
@@ -30,7 +30,9 @@
                 <span class="bar"></span>
             </div>
         </nav>
-    </header>  
+    </header>
+    
+    <main>
         <div class="seccion seccion-form1">
             <h2 id="titulo-form">¿Queres contactarte con nosotros?</h2>           
             <form class="container-form">
@@ -89,17 +91,34 @@
                         <input type="email" class="form-texto" id="email" placeholder="Ingrese su email">
                     </div>
                     <div class="contenido">
-                        <label for="cuadroMensaje" class="form-label">Mensaje:</label>
+                        <label id="subi-CV" for="labelFILE">Subi tu CV:</label>
                     </div>
-                    <div class="contenido">
-                        <textarea class="text-area" id="cuadroMensaje" rows="4  " placeholder="Escriba aqui su mensaje"></textarea>
+                    <div class="contenido archivo">
+                        <label id="labelFILE" for="imput-tag">
+                            Seleccionar Archivo               
+                            <input type="file" class="form-archivo" id="imput-tag">
+                        </label>
+                    </div>
+                    <div class="conte">
+                        <label for="edad" class="form-label">Puesto al que se postula:</label>
+                    </div>     
+                    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">        
+                        <select class="selector-puesto" id="edad">                
+                            <option selected> Elegi un puesto</option>
+                            <option value="1">Camarera/o</option>
+                            <option value="2">Cajera/o</option>
+                            <option value="3">Cocinera/o</option>
+                            <option value="3">Bachera/o</option>
+                            <option value="3">Otro</option>
+                        </select>         
                     </div>
                 </div>
                 <button class="submit-form" type="submit">Enviar</button>
             </form>
-        </div>        
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-        <footer class="footer2">
+        </div>
+    </main>
+    
+    <footer class="footer2">
         <div class="seccion-logo-footer">
             <img src="./imagenes/Logos/GalaxyLogo1.png" class="logoFooter" alt="">
         </div>
